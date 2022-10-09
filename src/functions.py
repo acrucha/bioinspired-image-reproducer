@@ -14,7 +14,7 @@ def selection(population, fitness):
     new_population = roulette_selection(population, fitness)
     return new_population
 
-def crossover(population, coord, source_img, type='avg'):
+def crossover(population, coord, source_img, type='one_cut'):
     
     parents = generate_parents()
 
