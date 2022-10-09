@@ -4,16 +4,6 @@ import numpy as np
 
 from utils import *
 
-def fitness(chromosome, coord, source_img):
-
-    means = source_img[coord[1]:coord[3], coord[0]:coord[2]].mean(axis=(0,1))
-
-    score = 0.0
-    for i in range(len(chromosome)):
-        score += (chromosome[i] - means[i]) * (chromosome[i] - means[i])
-    
-    return 1 / (1 + score)
-
 
 def one_cut_crossover(population, parents):
     for i in range(len(parents)):

@@ -1,7 +1,6 @@
 import random
-from utils import CHROMOSOMES_NUMBER
 
-def roulette_selection(population, fitness):
+def roulette_selection(population, fitness, CHROMOSOMES_NUMBER):
     total = sum(fitness)
     fitness = [(i/total) for i in fitness]
 
