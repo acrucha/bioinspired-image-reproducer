@@ -7,8 +7,8 @@ def generate_args():
     parser.add_argument('-m', '--mutation', type=str, default='random',
                         help='type of mutation (options: random)')
     
-    parser.add_argument('-c', '--crossover', type=str, default='one-cut',
-                        help='type of crossover (options: one-cut)')
+    parser.add_argument('-c', '--crossover', type=str, default='one_cut',
+                        help='type of crossover (options: one_cut, intermediate, average)')
 
     parser.add_argument('-f', '--filename', type=str, required=True,
                         help='filename of the image to be reproduced')

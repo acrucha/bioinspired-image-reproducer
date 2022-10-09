@@ -7,52 +7,25 @@ from math import ceil
 import numpy as np
 from mutations import *
 from crossovers import *
+from selections import *
 from utils import *
 
-def fitness(chromosome, coord, source_img):
-
-    means = source_img[coord[1]:coord[3], coord[0]:coord[2]].mean(axis=(0,1))
-
-    score = 0.0
-    for i in range(len(chromosome)):
-        score += (chromosome[i] - means[i]) * (chromosome[i] - means[i])
-    
-    return 1 / (1 + score)
-
-
-def selection(population, probability):
-    total = 0.0
-    for i in range(CHROMOSOMES_NUMBER):
-        total += probability[i]
-
-    for i in range(CHROMOSOMES_NUMBER):
-        probability[i] /= total
-
-    new_population = [None] * CHROMOSOMES_NUMBER
-
-    cumulative_probability = [None] * CHROMOSOMES_NUMBER
-    cumulative_probability[0] = probability[0]
-    for i in range(1,CHROMOSOMES_NUMBER):
-        cumulative_probability[i] = probability[i] + cumulative_probability[i-1]
-
-    for i in range(CHROMOSOMES_NUMBER):
-        r = random.uniform(0,1)
-        for j in range(CHROMOSOMES_NUMBER):
-            if j == 0:
-                if 0 <= r and r < cumulative_probability[j]:
-                    new_population[i] = population[j].copy()
-            else:
-                if cumulative_probability[j-1] <= r and r < cumulative_probability[j]:
-                    new_population[i] = population[j].copy()
-
+def selection(population, fitness):
+    new_population = roulette_selection(population, fitness)
     return new_population
 
-
-def crossover(population):
+def crossover(population, coord, source_img, type='avg'):
     
     parents = generate_parents()
 
-    population = one_cut_crossover(population, parents)
+    if type == 'one_cut':
+        population = one_cut_crossover(population, parents)
+    elif type == 'intermediate':
+        population = intermediate_recombination(population, parents)
+    elif type == 'two_point':
+        population = two_point_ordered_crossover(population, parents, coord, source_img)
+    else:
+        population = average_recombination(population, parents)
 
     return population
 
@@ -68,19 +41,18 @@ def get_chromosome(coord, source_img):
     score = [None] * CHROMOSOMES_NUMBER
     
     best_score = 0.0
-    while(best_score < 0.1):
-
+    while(True):
         for i in range(CHROMOSOMES_NUMBER):
             score[i] = fitness(population[i], coord, source_img)
             if score[i] > best_score:
                 best_score = score[i]
                 best_chromosome = population[i]
+                if best_score >= 0.1:
+                    return best_chromosome      
         
         population = selection(population, score)
-        population = crossover(population)
+        population = crossover(population, coord, source_img)
         population = mutation(population)
-
-    return best_chromosome
 
 
 def get_image(filename):
@@ -98,9 +70,10 @@ def get_image(filename):
 def print_execution_time(start_time):
     exec_time = time.time() - start_time
     if exec_time > 60:
-        print(f'--- {exec_time/60} minutes ---') 
+        exec_time /= 60
+        print(f'--- {"%.2f" % exec_time} minutes ---') 
     else:
-        print(f'--- {exec_time} seconds ---') 
+        print(f'--- {"%.2f" % exec_time} seconds ---') 
 
 def get_solution(image, begin, end_y, end_x, draw):
     pop = []
