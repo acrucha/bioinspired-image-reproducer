@@ -1,7 +1,12 @@
+import time
 import cv2
 import random
 
 from math import ceil
+
+import numpy as np
+from mutations import *
+from crossovers import *
 from utils import *
 
 def fitness(chromosome, coord, source_img):
@@ -45,34 +50,21 @@ def selection(population, probability):
 
 def crossover(population):
     
-    parents = []
-    for i in range(CHROMOSOMES_NUMBER):
-        r = random.uniform(0,1)
-        if r < CROSSOVER_RATE:
-            parents.append(i)
+    parents = generate_parents()
 
-    for i in range(len(parents)):
-        cut = random.randint(1,3)
-        for k in range(cut, len(population[parents[i]])):
-            population[parents[i]][k] = population[parents[(i + 1)%(i + 1)]][k]
+    population = one_cut_crossover(population, parents)
 
     return population
-
 
 def mutation(population):
 
-    for chromosome in population:
-        for move in range(len(chromosome)):
-            r = random.uniform(0, 1)
-            if r < MUTATION_RATE:
-                chromosome[move] = random.randint(0,255)
+    population = random_mutation(population)
 
     return population
 
-
 def get_chromosome(coord, source_img):
 
-    population = [[random.randint(0,255), random.randint(0,255), random.randint(0,255)].copy() for i in range(CHROMOSOMES_NUMBER)]
+    population = [[random.randint(MIN_RGB, MAX_RGB), random.randint(MIN_RGB, MAX_RGB), random.randint(MIN_RGB, MAX_RGB)].copy() for i in range(CHROMOSOMES_NUMBER)]
     score = [None] * CHROMOSOMES_NUMBER
     
     best_score = 0.0
@@ -103,7 +95,7 @@ def get_image(filename):
     height, width, _ = image.shape
     return [image, height, width]
 
-def print_execution_time(time, start_time):
+def print_execution_time(start_time):
     exec_time = time.time() - start_time
     if exec_time > 60:
         print(f'--- {exec_time/60} minutes ---') 
@@ -114,9 +106,41 @@ def get_solution(image, begin, end_y, end_x, draw):
     pop = []
     for y in range(begin, end_x, GRID_SIZE):
         for x in range(begin, end_y, GRID_SIZE):
-            coord = (x, y)
+            coord = (x,y)
             print(f"Pixel #{len(pop)+1} = {coord}")
             solution = get_chromosome((x, y, x + GRID_SIZE, y + GRID_SIZE), image)
-            draw.rectangle([(x,y), (x+GRID_SIZE, y+GRID_SIZE)], fill=(solution[0], solution[1], solution[2]))
+            color = (solution[0], solution[1], solution[2])
+            draw.rectangle([coord, (x+GRID_SIZE, y+GRID_SIZE)], fill=color)
             pop.append(solution)
     return pop
+
+def generate_parents():
+    parents = []
+    for i in range(CHROMOSOMES_NUMBER):
+        r = random.uniform(0,1)
+        if r < CROSSOVER_RATE:
+            parents.append(i)
+            
+    return parents
+
+
+def evaluate_executions(all_gen, all_fitness, counter, exec_time):
+    mean_gen = np.average(all_gen)
+    std_gen = np.std(all_gen)
+    mean_fitness = np.average(all_fitness)
+    std_fitness = np.std(all_fitness)
+    convergences = sum(counter)
+    mean_convergence = np.average(counter)
+    mean_exec_time = np.average(exec_time)
+    return [mean_gen, std_gen, convergences, mean_fitness, std_fitness, mean_convergence, mean_exec_time]
+
+
+def print_evaluation(mean_gen, std_gen, convergences, mean_fitness, std_fitness, mean_convergence, mean_exec_time):
+    print("Em que iteração o algoritmo convergiu, em média: ", round(mean_gen, 3))
+    print("Desvio Padrão de em quantas iterações o algoritmo convergiu: ", round(std_gen, 3))
+    print("Fitness médio alcançado nas 30 execuções : ", round(mean_fitness, 3))
+    print("Desvio padrão dos Fitness alcançados nas 30 execuções: ", round(std_fitness, 3))
+    print("Em quantas execuções o algoritmo convergiu: ", str(min(convergences, 30)) + "/30")
+    print("Número de indivíduos que convergiram: ", convergences)
+    print("Número de indivíduos que convergiram por execução, em média: ", round(mean_convergence, 3))
+    print("Tempo médio de execução das 30 execuções: ", round(mean_exec_time, 3), " segundos")

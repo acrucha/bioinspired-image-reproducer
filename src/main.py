@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     pop = get_solution(image, begin, height, width, draw)
 
-    print_execution_time(time, start_time)
+    print_execution_time(start_time)
 
     plt.title(f"{filename} - Output")
     plt.imshow(im)
