@@ -3,11 +3,11 @@ import argparse
 def generate_args():
     parser = argparse.ArgumentParser(description='CLI - Bioinspired Image Reproducer', allow_abbrev=True)
 
-    parser.add_argument('-m', '--mutation', type=str, default='random',
-                        help='type of mutation (options: random)')
+    parser.add_argument('-m', '--mutation', type=str, default='gaussian',
+                        help='type of mutation (options: random, rank_based_adaptive, gaussian, triangular)')
     
     parser.add_argument('-c', '--crossover', type=str, default='one_cut',
-                        help='type of crossover (options: one_cut, intermediate, average)')
+                        help='type of crossover (options: one_cut, two_point, intermediate, average)')
 
     parser.add_argument('-f', '--filename', type=str, required=True,
                         help='filename of the image to be reproduced')
@@ -32,6 +32,12 @@ def generate_args():
 
     parser.add_argument('-g', '--grayscale', type=bool, default=False,
                         help='generates output in grayscale mode')
+
+    parser.add_argument('-u', '--gaussian-mu', type=int, default=2,
+                        help='mu, mean to be applied in the gaussian mutation')
+
+    parser.add_argument('-d', '--gaussian-sigma', type=int, default=10,
+                        help='sigma, standard deviation to be applied in the gaussian mutation')
 
     args = parser.parse_args() 
 

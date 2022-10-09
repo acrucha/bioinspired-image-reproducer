@@ -45,3 +45,28 @@ def print_evaluation(mean_gen, std_gen, convergences, mean_fitness, std_fitness,
     print("Número de indivíduos que convergiram: ", convergences)
     print("Número de indivíduos que convergiram por execução, em média: ", round(mean_convergence, 3))
     print("Tempo médio de execução das 30 execuções: ", round(mean_exec_time, 3), " segundos")
+
+def get_fit(p):
+    return p[1]
+
+def sort_by_fitness(pop, fitness):
+    pop_with_fitness = []
+    j = 0
+    for i in pop:
+        pop_with_fitness.append([i, fitness[j]])
+        j+=1
+    
+    pop_with_fitness.sort(key=get_fit, reverse=True)
+
+    new_population = []
+    for chromosome in pop_with_fitness:
+        new_population.append(chromosome[0])
+
+    return new_population
+
+def get_population_fitness(CHROMOSOMES_NUMBER, image, coord, population, score, best_chromosome):
+    for i in range(CHROMOSOMES_NUMBER):
+        score[i] = fitness(population[i], coord, image)
+        if score[i] > best_chromosome[0]:
+            best_chromosome = [score[i], population[i]]
+    return [score, best_chromosome]

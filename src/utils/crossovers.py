@@ -38,7 +38,7 @@ def average_recombination(population, parents):
 
         child = []
         for j in range(CHROMOSOME_SIZE):
-            avg = [np.mean([parent1[j], parent2[j]])]
+            avg = int(np.mean([parent1[j], parent2[j]]))
             child.append(avg)
 
         population.append(child)
@@ -64,24 +64,10 @@ def two_point_ordered_crossover(population, parents, coord, source_img):
             fit.append(fitness(child1, coord, source_img))
             fit.append(fitness(child2, coord, source_img))
 
-        children_with_fitness = sort_by_fitness(children, fit)
+        children = sort_by_fitness(children, fit)
 
         for j in range(3):
-            c = children_with_fitness[j][0]
-            population.append(c)
+            population.append(children[j])
             
     return population
 
-    
-def getFit(p):
-    return p[1]
-
-def sort_by_fitness(parents_choice, fitness):
-    parents_with_fitness = []
-    j = 0
-    for i in parents_choice:
-        parents_with_fitness.append([i, fitness[j]])
-        j+=1
-    
-    parents_with_fitness.sort(key=getFit, reverse=True)
-    return parents_with_fitness

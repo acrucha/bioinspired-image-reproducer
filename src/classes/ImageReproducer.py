@@ -1,3 +1,4 @@
+import os
 import cv2
 import random
 
@@ -32,6 +33,9 @@ class ImageReproducer():
         self.grayscale = args.grayscale
         self.number_of_threads = args.number_of_threads
 
+        self.GAUSS_MU = args.gaussian_mu
+        self.GAUSS_SIGMA = args.gaussian_sigma
+
         self.start_time = time.time()
         
 
@@ -61,15 +65,32 @@ class ImageReproducer():
             population = intermediate_recombination(population, parents)
         elif self.crossover_type == 'two_point':
             population = two_point_ordered_crossover(population, parents, coord, self.image)
-        else:
+        elif self.crossover_type == 'average':
             population = average_recombination(population, parents)
 
         return population
 
-    def mutation(self, population):
+    def mutation(self, population, coord):
 
         if self.mutation_type == 'random':
             population = random_mutation(population, self.MUTATION_RATE)
+        elif self.mutation_type == 'triangular':
+            population = triangular_mutation(population, self.MUTATION_RATE)
+        elif self.mutation_type == 'rank_based_adaptive':
+            population = rank_based_adaptive_mutation(
+                            population, 
+                            self.MUTATION_RATE, 
+                            self.CHROMOSOMES_NUMBER, 
+                            self.image, 
+                            coord
+                        )
+        elif self.mutation_type == 'gaussian':
+            population = gaussian_mutation(
+                            population, 
+                            self.MUTATION_RATE, 
+                            self.GAUSS_MU, 
+                            self.GAUSS_SIGMA
+                        )
 
         return population
 
@@ -78,19 +99,24 @@ class ImageReproducer():
         population = [[random.randint(MIN_RGB, MAX_RGB), random.randint(MIN_RGB, MAX_RGB), random.randint(MIN_RGB, MAX_RGB)].copy() for i in range(self.CHROMOSOMES_NUMBER)]
         score = [None] * self.CHROMOSOMES_NUMBER
         
-        best_score = 0.0
+        best_chromosome = [0.0, []]
         while(True):
-            for i in range(self.CHROMOSOMES_NUMBER):
-                score[i] = fitness(population[i], coord, self.image)
-                if score[i] > best_score:
-                    best_score = score[i]
-                    best_chromosome = population[i]
-                    if best_score >= 0.1:
-                        return best_chromosome      
+
+            score, best_chromosome = get_population_fitness(
+                                        self.CHROMOSOMES_NUMBER, 
+                                        self.image, 
+                                        coord, 
+                                        population, 
+                                        score, 
+                                        best_chromosome
+                                    )      
+
+            if best_chromosome[0] >= 0.1:
+                return best_chromosome[1]
             
             population = self.selection(population, score)
             population = self.crossover(population, coord)
-            population = self.mutation(population)
+            population = self.mutation(population, coord)
 
     def get_solution(self, begin, end_y, end_x):
         pop = []
@@ -102,6 +128,7 @@ class ImageReproducer():
                 color = (solution[0], solution[1], solution[2])
                 self.draw.rectangle([coord, (x+self.GRID_SIZE, y+self.GRID_SIZE)], fill=color)
                 pop.append(solution)
+                print ("\033[A                             \033[A")
         
         return pop
 
@@ -115,11 +142,11 @@ class ImageReproducer():
         return parents
 
     def show_solution(self):
-        print_execution_time(self.start_time)
+        # print_execution_time(self.start_time)
 
         self.im.save(f'../img/outputs/output_{self.filename}')  
     
-        plt.title(f"{self.filename} - Output")
-        plt.imshow(self.im)
-        plt.show()
+        # plt.title(f"{self.filename} - Output")
+        # plt.imshow(self.im)
+        # plt.show()
         
