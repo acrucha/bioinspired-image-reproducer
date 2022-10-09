@@ -1,5 +1,5 @@
-from cli import *
-from ImageReproducer import *
+from utils.cli import *
+from classes.ImageReproducer import *
 
 if __name__ == "__main__":
     args = generate_args()

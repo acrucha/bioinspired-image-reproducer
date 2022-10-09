@@ -2,7 +2,7 @@ import random
 
 import numpy as np
 
-from utils import *
+from utils.utils import *
 
 
 def one_cut_crossover(population, parents):

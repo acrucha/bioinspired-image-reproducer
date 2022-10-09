@@ -6,10 +6,10 @@ from PIL import Image, ImageDraw
 from matplotlib import pyplot as plt
 
 
-from mutations import *
-from crossovers import *
-from selections import *
-from utils import *
+from utils.mutations import *
+from utils.crossovers import *
+from utils.selections import *
+from utils.utils import *
 
 class ImageReproducer():
     

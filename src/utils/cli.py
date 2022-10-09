@@ -1,6 +1,5 @@
 import argparse
 
-
 def generate_args():
     parser = argparse.ArgumentParser(description='CLI - Bioinspired Image Reproducer', allow_abbrev=True)
 

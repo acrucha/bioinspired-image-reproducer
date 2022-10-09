@@ -1,5 +1,5 @@
 import random
-from utils import *
+from utils.utils import *
 
 def random_mutation(population, mutation_rate):
     for chromosome in population:
