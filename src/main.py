@@ -1,27 +1,15 @@
-import time
-import matplotlib.pyplot as plt
-
-from PIL import Image, ImageDraw
-from utils import *
-from functions import *
+from cli import *
+from ImageReproducer import *
 
 if __name__ == "__main__":
+    args = generate_args()
 
-    start_time = time.time()
+    solution = ImageReproducer(args)
+
     begin = 0
 
-    filename = input("Filename: ")
-    image, height, width = get_image(filename)
+    pop = solution.get_solution(begin, solution.height, solution.width)
 
-    im = Image.new('RGB', (width, height), 'black')
-    draw = ImageDraw.Draw(im)
+    solution.show_solution()
 
-    pop = get_solution(image, begin, height, width, draw)
-
-    print_execution_time(start_time)
-
-    plt.title(f"{filename} - Output")
-    plt.imshow(im)
-    plt.show()
     
-    im.save(f'../img/outputs/output_{filename}')  
