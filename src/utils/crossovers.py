@@ -28,6 +28,9 @@ def intermediate_recombination(population, parents):
         population.append(child1)
         population.append(child2)
 
+    # talvez ver se melhora usando rank
+    population = random.sample(population, 50)
+
     return population
 
 def average_recombination(population, parents):
@@ -42,10 +45,22 @@ def average_recombination(population, parents):
             child.append(avg)
 
         population.append(child)
+
+    population = random.sample(population, 50)
+
     return population
 
 def two_point_ordered_crossover(population, parents, coord, source_img):
     
+    all_fitness, _ = get_population_fitness(
+        len(population), 
+        source_img, 
+        coord, 
+        population, 
+        [None] * len(population),
+        [0.0, []] 
+    )
+
     for i in range(0, len(parents)-1, 2):
         parent1 = population[parents[i]]
         parent2 = population[parents[i+1]]
@@ -68,6 +83,11 @@ def two_point_ordered_crossover(population, parents, coord, source_img):
 
         for j in range(3):
             population.append(children[j])
+            all_fitness.append(fitness(children[j], coord, source_img))
+
+    population = sort_by_fitness(population, all_fitness)
+
+    population = population[:50]
             
     return population
 
