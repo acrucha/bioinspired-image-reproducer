@@ -13,7 +13,7 @@ def one_cut_crossover(population, parents):
 
     return population
 
-def intermediate_recombination(population, parents):
+def intermediate_recombination(population, parents, CHROMOSOMES_NUMBER):
     for i in range(0, len(parents)-1, 2):
         parent1 = population[parents[i]]
         parent2 = population[parents[i+1]]
@@ -29,7 +29,7 @@ def intermediate_recombination(population, parents):
         population.append(child2)
 
     # talvez ver se melhora usando rank
-    population = random.sample(population, 50)
+    population = random.sample(population, CHROMOSOMES_NUMBER)
 
     return population
 

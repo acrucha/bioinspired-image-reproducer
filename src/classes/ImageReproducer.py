@@ -1,11 +1,10 @@
-import os
 import cv2
 import random
 
 from math import ceil
 from PIL import Image, ImageDraw
 from matplotlib import pyplot as plt
-
+from termcolor import colored
 
 from utils.mutations import *
 from utils.crossovers import *
@@ -62,7 +61,7 @@ class ImageReproducer():
         if self.crossover_type == 'one_cut':
             population = one_cut_crossover(population, parents)
         elif self.crossover_type == 'intermediate':
-            population = intermediate_recombination(population, parents)
+            population = intermediate_recombination(population, parents, self.CHROMOSOMES_NUMBER)
         elif self.crossover_type == 'two_point':
             population = two_point_ordered_crossover(population, parents, coord, self.image)
         elif self.crossover_type == 'average':
@@ -113,15 +112,14 @@ class ImageReproducer():
 
             if best_chromosome[0] >= 0.1:
                 return best_chromosome[1]
-            
             population = self.selection(population, score)
             population = self.crossover(population, coord)
             population = self.mutation(population, coord)
 
     def get_solution(self, begin, end_y, end_x):
         pop = []
-        for y in range(begin, end_x, self.GRID_SIZE):
-            for x in range(begin, end_y, self.GRID_SIZE):
+        for y in range(begin, end_y, self.GRID_SIZE):
+            for x in range(begin, end_x, self.GRID_SIZE):                    
                 coord = (x,y)
                 print(f"Pixel #{len(pop)+1} = {coord}")
                 solution = self.get_chromosome((x, y, x + self.GRID_SIZE, y + self.GRID_SIZE))
@@ -142,11 +140,14 @@ class ImageReproducer():
         return parents
 
     def show_solution(self):
-        # print_execution_time(self.start_time)
 
-        self.im.save(f'../img/outputs/output_{self.filename}')  
+        print(colored("Done!", 'green'))
+        print_execution_time(self.start_time)
+
+        self.im.save(f'../img/outputs/output_grid[{self.GRID_SIZE}]_{self.filename}')  
     
-        # plt.title(f"{self.filename} - Output")
-        # plt.imshow(self.im)
-        # plt.show()
+        plt.title(f"{self.filename} - Output - Grid size = {self.GRID_SIZE}")
+        plt.axis(False)
+        plt.imshow(self.im)
+        plt.show()
         
