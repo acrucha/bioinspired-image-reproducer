@@ -6,7 +6,7 @@ def generate_args():
     parser.add_argument('-m', '--mutation', type=str, default='gaussian',
                         help='type of mutation (options: random, rank_based_adaptive, gaussian, triangular)')
     
-    parser.add_argument('-c', '--crossover', type=str, default='one_cut',
+    parser.add_argument('-c', '--crossover', type=str, default='intermediate',
                         help='type of crossover (options: one_cut, two_point, intermediate, average)')
 
     parser.add_argument('-f', '--filename', type=str, required=True,
@@ -15,7 +15,7 @@ def generate_args():
     parser.add_argument('-p', '--population-size', type=int, default=50,
                         help='population size')
 
-    parser.add_argument('-M', '--mutation-rate', type=float, default=0.2,
+    parser.add_argument('-M', '--mutation-rate', type=float, default=0.4,
                         help='mutation rate')
 
     parser.add_argument('-C', '--crossover-rate', type=float, default=0.9,

@@ -17,8 +17,22 @@ crossovers = [
     'average'
 ]
 
-crossover_rates = [0.5, 0.6, 0.8, 0.9]
-mutation_rates = [0.4, 0.3, 0.2, 0.1]
+crossover_rates = [
+    0.5, 
+    0.6, 
+    0.8, 
+    0.9
+]
+mutation_rates = [
+    0.4, 
+    0.3, 
+    0.2, 
+    0.1,
+    0.8,
+    0.5,
+    0.6,
+    0.7
+]
 
 story = []
 
@@ -27,6 +41,10 @@ def get_time(s):
 
 if __name__ == "__main__":
     i = 0
+
+    with open("./test/testing.json", 'r') as f:
+        story = json.load(f)
+
     for m in mutations:
         for c in crossovers:
             for mr in mutation_rates:
