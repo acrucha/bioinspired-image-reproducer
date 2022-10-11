@@ -1,16 +1,17 @@
+from asyncio import sleep
 import cv2
 import random
 
 from math import ceil
 from PIL import Image, ImageDraw
 from matplotlib import pyplot as plt
+from numpy import size
 from termcolor import colored
-
+from multiprocessing import Lock, Process,Pool
 from utils.mutations import *
 from utils.crossovers import *
 from utils.selections import *
 from utils.utils import *
-
 class ImageReproducer():
     
     def __init__(self, args):
@@ -94,7 +95,6 @@ class ImageReproducer():
         return population
 
     def get_chromosome(self, coord):
-
         population = [[random.randint(MIN_RGB, MAX_RGB), random.randint(MIN_RGB, MAX_RGB), random.randint(MIN_RGB, MAX_RGB)].copy() for i in range(self.CHROMOSOMES_NUMBER)]
         score = [None] * self.CHROMOSOMES_NUMBER
         
@@ -115,20 +115,30 @@ class ImageReproducer():
             population = self.selection(population, score)
             population = self.crossover(population, coord)
             population = self.mutation(population, coord)
-
-    def get_solution(self, begin, end_y, end_x):
-        pop = []
-        for y in range(begin, end_y, self.GRID_SIZE):
-            for x in range(begin, end_x, self.GRID_SIZE):                    
-                coord = (x,y)
-                print(f"Pixel #{len(pop)+1} = {coord}")
-                solution = self.get_chromosome((x, y, x + self.GRID_SIZE, y + self.GRID_SIZE))
-                color = (solution[0], solution[1], solution[2])
-                self.draw.rectangle([coord, (x+self.GRID_SIZE, y+self.GRID_SIZE)], fill=color)
-                pop.append(solution)
-                print ("\033[A                             \033[A")
+    
+    def get_solution(self,begin, end_y, end_x):
+        vetor = []
+        with Pool(4) as pool:
+            for x in range(begin, end_x, self.GRID_SIZE):
+                for y in range(begin, end_y, self.GRID_SIZE):  
+                    vetor.append((x,y))
+            
+            for result in pool.starmap(self.get_task,vetor):
+                self.draw.rectangle([result[1], (x+self.GRID_SIZE, y+self.GRID_SIZE)], fill=result[0])
+    def get_task(self, x,y):
         
-        return pop
+        pop = []    
+        # for y in range(begin, end_y, self.GRID_SIZE):
+        #     for x in range(begin, end_x, self.GRID_SIZE):                    
+        coord = (x,y)
+        print(f"Pixel #{len(pop)+1} = {coord}")
+        solution = self.get_chromosome((x, y, x + self.GRID_SIZE, y + self.GRID_SIZE))
+        color = (solution[0], solution[1], solution[2])
+        pop.append(solution)
+        print ("\033[A                             \033[A")
+        
+        return [color,coord]
+
 
     def generate_parents(self):
         parents = []
