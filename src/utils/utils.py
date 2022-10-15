@@ -1,11 +1,13 @@
 import time
 import numpy as np
+from termcolor import colored
 
 
 MAX_RGB = 255
 MIN_RGB = 0
 CHROMOSOME_SIZE = 3
 RATIO = 4
+TARGET_FITNESS = 0.1
 
 def fitness(chromosome, coord, source_img):
 
@@ -17,34 +19,42 @@ def fitness(chromosome, coord, source_img):
     
     return 1 / (1 + score)
 
+def count_convergence(fitness):
+    count = 0
+    for i in fitness:
+        if i >= TARGET_FITNESS:
+            count+=1
+    return count
+
 def print_execution_time(start_time):
         exec_time = time.time() - start_time
         if exec_time > 60:
             exec_time /= 60
-            print(f'--- {"%.2f" % exec_time} minutes ---') 
+            print(f'--- {"%.2f" % exec_time} minutos ---') 
         else:
-            print(f'--- {"%.2f" % exec_time} seconds ---') 
+            print(f'--- {"%.2f" % exec_time} segundos ---') 
 
-def evaluate_executions(all_gen, all_fitness, counter, exec_time):
+def evaluate_executions(all_gen, all_fitness, all_convergence, exec_time):
     mean_gen = np.average(all_gen)
     std_gen = np.std(all_gen)
     mean_fitness = np.average(all_fitness)
     std_fitness = np.std(all_fitness)
-    convergences = sum(counter)
-    mean_convergence = np.average(counter)
+    convergences = sum(all_convergence)
+    mean_convergence = np.average(all_convergence)
     mean_exec_time = np.average(exec_time)
     return [mean_gen, std_gen, convergences, mean_fitness, std_fitness, mean_convergence, mean_exec_time]
 
 
-def print_evaluation(mean_gen, std_gen, convergences, mean_fitness, std_fitness, mean_convergence, mean_exec_time):
-    print("Em que iteração o algoritmo convergiu, em média: ", round(mean_gen, 3))
-    print("Desvio Padrão de em quantas iterações o algoritmo convergiu: ", round(std_gen, 3))
-    print("Fitness médio alcançado nas 30 execuções : ", round(mean_fitness, 3))
-    print("Desvio padrão dos Fitness alcançados nas 30 execuções: ", round(std_fitness, 3))
-    print("Em quantas execuções o algoritmo convergiu: ", str(min(convergences, 30)) + "/30")
-    print("Número de indivíduos que convergiram: ", convergences)
-    print("Número de indivíduos que convergiram por execução, em média: ", round(mean_convergence, 3))
-    print("Tempo médio de execução das 30 execuções: ", round(mean_exec_time, 3), " segundos")
+def print_evaluation(mean_gen, std_gen, convergences, mean_fitness, std_fitness, mean_convergence, mean_exec_time, n_pixel, n_individuals):
+    print(f"Em quantas execuções o algoritmo convergiu: {colored(min(convergences, n_pixel), 'green')}/{colored(n_pixel, 'green')}")
+    print(f"Número de indivíduos que convergiram no total: {colored(convergences, 'green')}/{colored(n_individuals, 'green')}")
+    print(f"Em que iteração o algoritmo convergiu, em média: {colored(round(mean_gen, 3), 'green')}")
+    print(f"Desvio Padrão de em quantas iterações o algoritmo convergiu: {colored(round(std_gen, 3), 'green')}")
+    print(f"Fitness médio alcançado em todos os pixels: {colored(round(mean_fitness, 3), 'green')}")
+    print(f"Desvio padrão dos Fitness alcançados em todos os pixels: {colored(round(std_fitness, 3), 'green')}")
+    print(f"Número de indivíduos que convergiram por execução, em média: {colored(round(mean_convergence, 3), 'green')}")
+    print(f"Tempo médio de execução em cada pixel: {colored(round(mean_exec_time, 3), 'green')} segundos")
+    print(f"A quantidade de pixels na imagem é de: {colored(n_pixel, 'green')} pixels")
 
 def get_fit(p):
     return p[1]

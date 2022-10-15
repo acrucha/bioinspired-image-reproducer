@@ -26,9 +26,8 @@ class ImageReproducer():
 
         self.crossover_type = args.crossover
         self.CROSSOVER_RATE = args.crossover_rate
-        self.CHROMOSOMES_NUMBER = args.population_size
-
-        self.allow_multiprocessing = args.allow_multiprocessing
+        self.population_size = args.population_size
+        
         self.grayscale = args.grayscale
 
         self.number_of_processes = args.number_of_processes if args.number_of_processes <= 8 else 8
@@ -36,8 +35,15 @@ class ImageReproducer():
         self.GAUSS_MU = args.gaussian_mu
         self.GAUSS_SIGMA = args.gaussian_sigma
 
-        self.start_time = time.time()
+        self.n_pixel = int((self.width/self.GRID_SIZE)*(self.height/self.GRID_SIZE))
+        self.n_individuals = self.population_size * self.n_pixel
+
+        self.all_fitness = []
+        self.all_generations = []
+        self.all_exec_time = []
+        self.all_convergence = []
         
+        self.start_time = time.time()
 
     def get_image(self):
         image = cv2.imread(f'../img/{self.filename}')
@@ -52,7 +58,7 @@ class ImageReproducer():
         return [image, height, width]
 
     def selection(self, population, fitness):
-        new_population = roulette_selection(population, fitness, self.CHROMOSOMES_NUMBER)
+        new_population = roulette_selection(population, fitness, self.population_size)
         return new_population
 
     def crossover(self, population, coord):
@@ -62,7 +68,7 @@ class ImageReproducer():
         if self.crossover_type == 'one_cut':
             population = one_cut_crossover(population, parents)
         elif self.crossover_type == 'intermediate':
-            population = intermediate_recombination(population, parents, self.CHROMOSOMES_NUMBER)
+            population = intermediate_recombination(population, parents, self.population_size)
         elif self.crossover_type == 'two_point':
             population = two_point_ordered_crossover(population, parents, coord, self.image)
         elif self.crossover_type == 'average':
@@ -80,7 +86,7 @@ class ImageReproducer():
             population = rank_based_adaptive_mutation(
                             population, 
                             self.MUTATION_RATE, 
-                            self.CHROMOSOMES_NUMBER, 
+                            self.population_size, 
                             self.image, 
                             coord
                         )
@@ -95,31 +101,36 @@ class ImageReproducer():
         return population
 
     def get_chromosome(self, coord):
-        population = [[random.randint(MIN_RGB, MAX_RGB), random.randint(MIN_RGB, MAX_RGB), random.randint(MIN_RGB, MAX_RGB)].copy() for i in range(self.CHROMOSOMES_NUMBER)]
-        score = [None] * self.CHROMOSOMES_NUMBER
+        population = [[random.randint(MIN_RGB, MAX_RGB), random.randint(MIN_RGB, MAX_RGB), random.randint(MIN_RGB, MAX_RGB)].copy() for i in range(self.population_size)]
+        fitness = [None] * self.population_size
         
         best_chromosome = [0.0, []]
+        generation = 1
+        start_time = time.time()
         while(True):
 
-            score, best_chromosome = get_population_fitness(
-                                        self.CHROMOSOMES_NUMBER, 
+            fitness, best_chromosome = get_population_fitness(
+                                        self.population_size, 
                                         self.image, 
                                         coord, 
                                         population, 
-                                        score, 
+                                        fitness, 
                                         best_chromosome
                                     )      
 
-            if best_chromosome[0] >= 0.1:
-                return best_chromosome[1]
-            population = self.selection(population, score)
+            if best_chromosome[0] >= TARGET_FITNESS:
+                exec_time = time.time() - start_time
+                return [best_chromosome[1], fitness, generation, exec_time]
+            population = self.selection(population, fitness)
             population = self.crossover(population, coord)
             population = self.mutation(population, coord)
+
+            generation+=1
     
-    def get_solution(self,begin, end_y, end_x):
+    def get_solution(self,begin):
         pixels = []
-        for x in range(begin, end_x, self.GRID_SIZE):
-            for y in range(begin, end_y, self.GRID_SIZE):  
+        for x in range(begin, self.width, self.GRID_SIZE):
+            for y in range(begin, self.height, self.GRID_SIZE):  
                 pixels.append((x,y))   
 
         n = self.number_of_processes
@@ -134,9 +145,15 @@ class ImageReproducer():
 
         for results in result:
             results.join()        
-
-        for a,b in return_list:
-            self.draw.rectangle([b, (b[0]+self.GRID_SIZE, b[1]+self.GRID_SIZE)], fill=a)
+            
+        for color, pixel, fitness, generation, exec_time in return_list:
+            self.draw.rectangle([pixel, (pixel[0]+self.GRID_SIZE, pixel[1]+self.GRID_SIZE)], fill=color)
+            self.all_fitness.append(np.average(fitness))
+            count = count_convergence(fitness)
+            self.all_convergence.append(count)
+            self.all_generations.append(generation)
+            self.all_exec_time.append(exec_time)
+        
 
     def generate_list(self, pixels, n):
         list = []
@@ -152,16 +169,16 @@ class ImageReproducer():
         for (x,y) in a :                    
             coord = (x,y)
             print(f"Pixel #{len(pop)+1} = {coord}")
-            solution = self.get_chromosome((x, y, x + self.GRID_SIZE, y + self.GRID_SIZE))
+            solution, fitness, generation, exec_time = self.get_chromosome((x, y, x + self.GRID_SIZE, y + self.GRID_SIZE))
             color = (solution[0], solution[1], solution[2])
             pop.append(solution)
-            return_list.append((color,coord))
+            return_list.append((color, coord, fitness, generation, exec_time))
             print ("\033[A                             \033[A")
         
 
     def generate_parents(self):
         parents = []
-        for i in range(self.CHROMOSOMES_NUMBER):
+        for i in range(self.population_size):
             r = random.uniform(0,1)
             if r < self.CROSSOVER_RATE:
                 parents.append(i)
@@ -170,13 +187,32 @@ class ImageReproducer():
 
     def show_solution(self):
 
+        [
+            mean_gen, 
+            std_gen, 
+            convergences, 
+            mean_fitness, 
+            std_fitness, 
+            mean_convergence, 
+            mean_exec_time
+        ] = evaluate_executions(
+            self.all_generations, 
+            self.all_fitness, 
+            self.all_convergence, 
+            self.all_exec_time
+        )
+
+        print_evaluation(
+            mean_gen, std_gen, convergences, 
+            mean_fitness, std_fitness, mean_convergence, 
+            mean_exec_time, self.n_pixel, self.n_individuals
+        )
+
         print(colored("Done!", 'green'))
         print_execution_time(self.start_time)
-
         self.im.save(f'../img/outputs/output_grid[{self.GRID_SIZE}]_{self.filename}')  
     
         plt.title(f"{self.filename} - Output - Grid size = {self.GRID_SIZE}")
         plt.axis(False)
         plt.imshow(self.im)
         plt.show()
-        

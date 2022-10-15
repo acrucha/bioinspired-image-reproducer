@@ -51,7 +51,7 @@ if __name__ == "__main__":
                 for cr in crossover_rates:
                     i+=1
                     start_time = time.time()
-                    os.system(f'python3 main.py -f 4.jpg -m {m} -c {c} -M {mr} -C {cr}')
+                    os.system(f'python3 main.py -f 4.jpg -m {m} -c {c} -M {mr} -C {cr} -P 8')
                     exec_time = time.time() - start_time
 
                     print(f'#{i} Execution', colored('OK', 'green'))
