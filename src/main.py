@@ -6,8 +6,6 @@ if __name__ == "__main__":
     solution = ImageReproducer(args)
 
     begin = 0
-    print(solution.height)
-    print(solution.width)
     solution.get_solution(begin, solution.height, solution.width)
 
     solution.show_solution()

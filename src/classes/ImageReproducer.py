@@ -119,7 +119,6 @@ class ImageReproducer():
     
     def get_solution(self,begin, end_y, end_x):
         vetor = []
-        count= 0
         for x in range(begin, end_x, self.GRID_SIZE):
             for y in range(begin, end_y, self.GRID_SIZE):  
                 vetor.append((x,y))   
@@ -135,15 +134,16 @@ class ImageReproducer():
             self.draw.rectangle([b, (b[0]+self.GRID_SIZE, b[1]+self.GRID_SIZE)], fill=a)
         
     def get_task(self,a,return_list):   
+        pop = []
         for (x,y) in a :                    
             coord = (x,y)
             print(f"Pixel #{len(pop)+1} = {coord}")
             solution = self.get_chromosome((x, y, x + self.GRID_SIZE, y + self.GRID_SIZE))
             color = (solution[0], solution[1], solution[2])
+            pop.append(solution)
             return_list.append((color,coord))
             print ("\033[A                             \033[A")
-            
-
+        
 
     def generate_parents(self):
         parents = []
