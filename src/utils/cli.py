@@ -21,11 +21,11 @@ def generate_args():
     parser.add_argument('-C', '--crossover-rate', type=float, default=0.9,
                         help='crossover rate')
 
-    parser.add_argument('-t', '--allow-threading', type=bool, default=False,
-                        help='allow multi-threading approach')
+    parser.add_argument('-t', '--allow-multiprocessing', type=bool, default=False,
+                        help='allow multi-multiprocessing approach')
 
-    parser.add_argument('-T', '--number-of-threads', type=int, default=5,
-                        help='number of threads to be used')
+    parser.add_argument('-P', '--number-of-processes', type=int, default=5,
+                        help='number of processes to be used')
 
     parser.add_argument('-s', '--grid-size', type=int, default=8,
                         help='grid size')                    

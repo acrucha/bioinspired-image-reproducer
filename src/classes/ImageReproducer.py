@@ -30,9 +30,9 @@ class ImageReproducer():
         self.CROSSOVER_RATE = args.crossover_rate
         self.CHROMOSOMES_NUMBER = args.population_size
 
-        self.allow_threading = args.allow_threading
+        self.allow_multiprocessing = args.allow_multiprocessing
         self.grayscale = args.grayscale
-        self.number_of_threads = args.number_of_threads
+        self.number_of_processes = args.number_of_processes
 
         self.GAUSS_MU = args.gaussian_mu
         self.GAUSS_SIGMA = args.gaussian_sigma
@@ -118,20 +118,35 @@ class ImageReproducer():
             population = self.mutation(population, coord)
     
     def get_solution(self,begin, end_y, end_x):
-        vetor = []
+        pixels = []
         for x in range(begin, end_x, self.GRID_SIZE):
             for y in range(begin, end_y, self.GRID_SIZE):  
-                vetor.append((x,y))   
-        lista = (vetor[:int(len(vetor)/4)],vetor[int(len(vetor)/4):int(len(vetor)/2)],vetor[int(len(vetor)/2):int(len(vetor)*3/4)],vetor[int(len(vetor)*3/4):int(len(vetor))])
+                pixels.append((x,y))   
+
+        n = self.number_of_processes
+        list = self.generate_list(pixels, n)
+
         manager = Manager()
         return_list = manager.list()
-        result = [Process(target=self.get_task,args=(lista[i],return_list)) for i in range(4)]
+        result = [Process(target=self.get_task,args=(list[i],return_list)) for i in range(n)]
+
         for results in result:
             results.start()
+            
         for results in result:
             results.join()        
+
         for a,b in return_list:
             self.draw.rectangle([b, (b[0]+self.GRID_SIZE, b[1]+self.GRID_SIZE)], fill=a)
+
+    def generate_list(self, pixels, n):
+        list = []
+        begin = 0
+        for i in range(1, n+1):
+            end = (len(pixels)*i)/n
+            list.append(pixels[int(begin):int(end)])
+            begin = end
+        return list
         
     def get_task(self,a,return_list):   
         pop = []
