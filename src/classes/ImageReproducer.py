@@ -1,18 +1,16 @@
-from asyncio import sleep
-from unittest import result
 import cv2
 import random
 
 from math import ceil
 from PIL import Image, ImageDraw
 from matplotlib import pyplot as plt
-from numpy import size
 from termcolor import colored
-from multiprocessing import Lock, Process,Pool,Manager
+from multiprocessing import Process, Manager
 from utils.mutations import *
 from utils.crossovers import *
 from utils.selections import *
 from utils.utils import *
+
 class ImageReproducer():
     
     def __init__(self, args):
@@ -32,7 +30,8 @@ class ImageReproducer():
 
         self.allow_multiprocessing = args.allow_multiprocessing
         self.grayscale = args.grayscale
-        self.number_of_processes = args.number_of_processes
+
+        self.number_of_processes = args.number_of_processes if args.number_of_processes <= 8 else 8
 
         self.GAUSS_MU = args.gaussian_mu
         self.GAUSS_SIGMA = args.gaussian_sigma
@@ -128,11 +127,11 @@ class ImageReproducer():
 
         manager = Manager()
         return_list = manager.list()
-        result = [Process(target=self.get_task,args=(list[i],return_list)) for i in range(n)]
+        result = [Process(target=self.get_pixels_solution,args=(list[i],return_list)) for i in range(n)]
 
         for results in result:
             results.start()
-            
+
         for results in result:
             results.join()        
 
@@ -148,7 +147,7 @@ class ImageReproducer():
             begin = end
         return list
         
-    def get_task(self,a,return_list):   
+    def get_pixels_solution(self, a, return_list):   
         pop = []
         for (x,y) in a :                    
             coord = (x,y)
