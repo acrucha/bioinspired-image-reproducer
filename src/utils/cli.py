@@ -12,10 +12,10 @@ def generate_args():
     parser.add_argument('-f', '--filename', type=str, required=True,
                         help='filename of the image to be reproduced')
 
-    parser.add_argument('-p', '--population-size', type=int, default=50,
+    parser.add_argument('-p', '--population-size', type=int, default=10,
                         help='population size')
 
-    parser.add_argument('-M', '--mutation-rate', type=float, default=0.4,
+    parser.add_argument('-M', '--mutation-rate', type=float, default=0.1,
                         help='mutation rate')
 
     parser.add_argument('-C', '--crossover-rate', type=float, default=0.9,
