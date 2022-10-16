@@ -42,6 +42,7 @@ class ImageReproducer():
         self.all_generations = []
         self.all_exec_time = []
         self.all_convergence = []
+        self.bests = []
         
         self.start_time = time.time()
 
@@ -103,6 +104,8 @@ class ImageReproducer():
     def get_chromosome(self, coord):
         population = [[random.randint(MIN_RGB, MAX_RGB), random.randint(MIN_RGB, MAX_RGB), random.randint(MIN_RGB, MAX_RGB)].copy() for i in range(self.population_size)]
         fitness = [None] * self.population_size
+
+        bests = []
         
         best_chromosome = [0.0, []]
         generation = 1
@@ -117,10 +120,10 @@ class ImageReproducer():
                                         fitness, 
                                         best_chromosome
                                     )      
-
+            bests.append(best_chromosome[0])
             if best_chromosome[0] >= TARGET_FITNESS:
                 exec_time = time.time() - start_time
-                return [best_chromosome[1], fitness, generation, exec_time]
+                return [best_chromosome[1], fitness, generation, exec_time, bests]
             population = self.selection(population, fitness)
             population = self.crossover(population, coord)
             population = self.mutation(population, coord)
@@ -146,13 +149,15 @@ class ImageReproducer():
         for results in result:
             results.join()        
             
-        for color, pixel, fitness, generation, exec_time in return_list:
+        for color, pixel, fitness, generation, exec_time, best in return_list:
             self.draw.rectangle([pixel, (pixel[0]+self.GRID_SIZE, pixel[1]+self.GRID_SIZE)], fill=color)
             self.all_fitness.append(np.average(fitness))
             count = count_convergence(fitness)
+            self.bests.append(best)
             self.all_convergence.append(count)
             self.all_generations.append(generation)
             self.all_exec_time.append(exec_time)
+
         
 
     def generate_list(self, pixels, n):
@@ -169,10 +174,10 @@ class ImageReproducer():
         for (x,y) in a :                    
             coord = (x,y)
             print(f"Pixel #{len(pop)+1} = {coord}")
-            solution, fitness, generation, exec_time = self.get_chromosome((x, y, x + self.GRID_SIZE, y + self.GRID_SIZE))
+            solution, fitness, generation, exec_time, bests = self.get_chromosome((x, y, x + self.GRID_SIZE, y + self.GRID_SIZE))
             color = (solution[0], solution[1], solution[2])
             pop.append(solution)
-            return_list.append((color, coord, fitness, generation, exec_time))
+            return_list.append((color, coord, fitness, generation, exec_time, bests))
             print ("\033[A                             \033[A")
         
 
@@ -194,13 +199,17 @@ class ImageReproducer():
             mean_fitness, 
             std_fitness, 
             mean_convergence, 
-            mean_exec_time
+            mean_exec_time,
+            mean_bests
         ] = evaluate_executions(
             self.all_generations, 
             self.all_fitness, 
             self.all_convergence, 
-            self.all_exec_time
+            self.all_exec_time,
+            self.bests
         )
+
+        self.save_fitness_graph(mean_bests)
 
         print_evaluation(
             mean_gen, std_gen, convergences, 
@@ -211,8 +220,15 @@ class ImageReproducer():
         print(colored("Done!", 'green'))
         print_execution_time(self.start_time)
         self.im.save(f'../img/outputs/output_grid[{self.GRID_SIZE}]_{self.filename}')  
-    
+
+            
         plt.title(f"{self.filename} - Output - Grid size = {self.GRID_SIZE}")
         plt.axis(False)
         plt.imshow(self.im)
         plt.show()
+
+    def save_fitness_graph(self, mean_bests):
+        plt.plot([i for i in range(1, mean_bests.size+1)], mean_bests)
+        plt.xlabel("Generation")
+        plt.ylabel("Fitness")
+        plt.savefig(f"../img/graphs/fitnessGraph_grid[{self.GRID_SIZE}]_{self.filename}")

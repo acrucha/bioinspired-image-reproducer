@@ -15,7 +15,7 @@ def generate_args():
     parser.add_argument('-p', '--population-size', type=int, default=10,
                         help='population size')
 
-    parser.add_argument('-M', '--mutation-rate', type=float, default=0.1,
+    parser.add_argument('-M', '--mutation-rate', type=float, default=0.09,
                         help='mutation rate')
 
     parser.add_argument('-C', '--crossover-rate', type=float, default=0.9,

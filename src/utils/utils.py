@@ -34,15 +34,29 @@ def print_execution_time(start_time):
         else:
             print(f'--- {"%.2f" % exec_time} segundos ---') 
 
-def evaluate_executions(all_gen, all_fitness, all_convergence, exec_time):
+def evaluate_executions(all_gen, all_fitness, all_convergence, exec_time, bests):
     mean_gen = np.average(all_gen)
+    reshaped_bests = reshape(mean_gen, bests)
+    mean_bests = np.average(reshaped_bests, axis=1)
     std_gen = np.std(all_gen)
     mean_fitness = np.average(all_fitness)
     std_fitness = np.std(all_fitness)
-    convergences = sum(all_convergence)
+    convergences = np.sum(all_convergence)
     mean_convergence = np.average(all_convergence)
     mean_exec_time = np.average(exec_time)
-    return [mean_gen, std_gen, convergences, mean_fitness, std_fitness, mean_convergence, mean_exec_time]
+    return [mean_gen, std_gen, convergences, mean_fitness, std_fitness, mean_convergence, mean_exec_time, mean_bests]
+
+def reshape(mean_gen, bests):
+    reshaped = []
+    for i in range(int(mean_gen)):
+        aux = []
+        for j in bests:
+            if i >= len(j):
+                aux.append(j[-1])
+            else:
+                aux.append(j[i])
+        reshaped.append(aux)
+    return reshaped
 
 
 def print_evaluation(mean_gen, std_gen, convergences, mean_fitness, std_fitness, mean_convergence, mean_exec_time, n_pixel, n_individuals):
