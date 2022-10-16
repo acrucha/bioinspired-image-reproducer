@@ -15,14 +15,11 @@ def generate_args():
     parser.add_argument('-p', '--population-size', type=int, default=10,
                         help='population size')
 
-    parser.add_argument('-M', '--mutation-rate', type=float, default=0.09,
+    parser.add_argument('-M', '--mutation-rate', type=float, default=0.2,
                         help='mutation rate')
 
-    parser.add_argument('-C', '--crossover-rate', type=float, default=0.9,
+    parser.add_argument('-C', '--crossover-rate', type=float, default=0.8,
                         help='crossover rate')
-
-    # parser.add_argument('-t', '--allow-multiprocessing', type=bool, default=True,
-    #                     help='allow multi-multiprocessing approach')
 
     parser.add_argument('-P', '--number-of-processes', type=int, default=4,
                         help='number of processes to be used (max = 8)')
@@ -30,8 +27,8 @@ def generate_args():
     parser.add_argument('-s', '--grid-size', type=int, default=8,
                         help='grid size')                    
 
-    parser.add_argument('-g', '--grayscale', type=bool, default=False,
-                        help='generates output in grayscale mode')
+    parser.add_argument('-t', '--test', action='store_true',
+                        help='generates output in test mode (without plot and save output image')
 
     parser.add_argument('-u', '--gaussian-mu', type=int, default=2,
                         help='mu, mean to be applied in the gaussian mutation')

@@ -28,7 +28,7 @@ class ImageReproducer():
         self.CROSSOVER_RATE = args.crossover_rate
         self.population_size = args.population_size
         
-        self.grayscale = args.grayscale
+        self.test = args.test
 
         self.number_of_processes = args.number_of_processes if args.number_of_processes <= 8 else 8
 
@@ -217,18 +217,19 @@ class ImageReproducer():
             mean_exec_time, self.n_pixel, self.n_individuals
         )
 
-        print(colored("Done!", 'green'))
+        print(colored("Done!", 'green',  attrs=['bold']))
         print_execution_time(self.start_time)
         self.im.save(f'../img/outputs/output_grid[{self.GRID_SIZE}]_{self.filename}')  
 
-            
-        plt.title(f"{self.filename} - Output - Grid size = {self.GRID_SIZE}")
-        plt.axis(False)
-        plt.imshow(self.im)
-        plt.show()
+        if not self.test:
+            plt.title(f"{self.filename} - Output - Grid size = {self.GRID_SIZE}")
+            plt.axis(False)
+            plt.imshow(self.im)
+            plt.show()
 
     def save_fitness_graph(self, mean_bests):
+        f0, f1 = self.filename.split('.')
         plt.plot([i for i in range(1, mean_bests.size+1)], mean_bests)
         plt.xlabel("Generation")
         plt.ylabel("Fitness")
-        plt.savefig(f"../img/graphs/fitnessGraph_grid[{self.GRID_SIZE}]_{self.filename}")
+        plt.savefig(f"../img/graphs/fitnessGraph_grid[{self.GRID_SIZE}]_{f0}.png")
