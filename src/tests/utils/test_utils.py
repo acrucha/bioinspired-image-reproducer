@@ -1,4 +1,8 @@
 
+import glob
+from PIL import Image
+
+
 mutations = [
     'random',
     'triangular',
@@ -47,7 +51,11 @@ map = {
     'mutation': "Mutation Rate",
     'crossover': "Crossover Rate",
     'processing': "Number of Processes",
-    'grid': "Grid Size"
+    'grid': "Grid Size",
+    'fitness': "Target Fitness"
 }
 
 PATH = './tests/'
+
+fit = [1e-1, 1e-2, 6e-3, 1e-3, 6e-4, 2e-4, 1e-4, 5e-5, 1e-6, 5e-7, 3e-7, 1e-7, 8e-8, 5e-9, 3e-9, 1e-9, 8e-10]
+

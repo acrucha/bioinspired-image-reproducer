@@ -1,3 +1,4 @@
+import os
 import cv2
 import random
 
@@ -35,6 +36,8 @@ class ImageReproducer():
         self.GAUSS_MU = args.gaussian_mu
         self.GAUSS_SIGMA = args.gaussian_sigma
 
+        self.sequence_number = args.number
+
         self.n_pixel = int((self.width/self.GRID_SIZE)*(self.height/self.GRID_SIZE))
         self.n_individuals = self.population_size * self.n_pixel
 
@@ -43,6 +46,8 @@ class ImageReproducer():
         self.all_exec_time = []
         self.all_convergence = []
         self.bests = []
+
+        self.TARGET_FITNESS = args.target_fitness 
         
         self.start_time = time.time()
 
@@ -121,7 +126,7 @@ class ImageReproducer():
                                         best_chromosome
                                     )      
             bests.append(best_chromosome[0])
-            if best_chromosome[0] >= TARGET_FITNESS:
+            if best_chromosome[0] >= self.TARGET_FITNESS:
                 exec_time = time.time() - start_time
                 return [best_chromosome[1], fitness, generation, exec_time, bests]
             population = self.selection(population, fitness)
@@ -152,7 +157,7 @@ class ImageReproducer():
         for color, pixel, fitness, generation, exec_time, best in return_list:
             self.draw.rectangle([pixel, (pixel[0]+self.GRID_SIZE, pixel[1]+self.GRID_SIZE)], fill=color)
             self.all_fitness.append(np.average(fitness))
-            count = count_convergence(fitness)
+            count = count_convergence(fitness, self.TARGET_FITNESS)
             self.bests.append(best)
             self.all_convergence.append(count)
             self.all_generations.append(generation)
@@ -209,7 +214,7 @@ class ImageReproducer():
             self.bests
         )
 
-        self.save_fitness_graph(mean_bests)
+        # self.save_fitness_graph(mean_bests)
 
         print_evaluation(
             mean_gen, std_gen, convergences, 
@@ -219,12 +224,20 @@ class ImageReproducer():
 
         print(colored("Done!", 'green',  attrs=['bold']))
         print_execution_time(self.start_time)
-        self.im.save(f'../img/outputs/output_grid[{self.GRID_SIZE}]_{self.filename}')  
+        f0, f1 = self.filename.split('.')
+
+        check_path(f0)
+
+        self.im.save(f'../img/outputs/{f0}/output_grid[{self.GRID_SIZE}]_fit[{self.sequence_number}]{self.filename}')  
 
         if not self.test:
-            plt.title(f"{self.filename} - Output - Grid size = {self.GRID_SIZE}")
-            plt.axis(False)
-            plt.imshow(self.im)
+            fig, (ax1, ax2) = plt.subplots(2)
+            ax2.set_title(f"{self.filename} - Input")
+            ax2.axis(False)
+            ax2.imshow(self.image)
+            ax1.set_title(f"{self.filename} - Output - Grid size = {self.GRID_SIZE} - Fitness Target = {self.TARGET_FITNESS}")
+            ax1.axis(False)
+            ax1.imshow(self.im)
             plt.show()
 
     def save_fitness_graph(self, mean_bests):

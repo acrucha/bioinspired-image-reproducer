@@ -1,3 +1,4 @@
+import os
 import time
 import numpy as np
 from termcolor import colored
@@ -7,7 +8,6 @@ MAX_RGB = 255
 MIN_RGB = 0
 CHROMOSOME_SIZE = 3
 RATIO = 4
-TARGET_FITNESS = 0.1
 
 def fitness(chromosome, coord, source_img):
 
@@ -19,7 +19,7 @@ def fitness(chromosome, coord, source_img):
     
     return 1 / (1 + score)
 
-def count_convergence(fitness):
+def count_convergence(fitness, TARGET_FITNESS):
     count = 0
     for i in fitness:
         if i >= TARGET_FITNESS:
@@ -58,14 +58,18 @@ def reshape(mean_gen, bests):
         reshaped.append(aux)
     return reshaped
 
+def check_path(f0):
+    if not os.path.exists(f'../img/outputs/{f0}'):
+        os.makedirs(f'../img/outputs/{f0}')
+
 
 def print_evaluation(mean_gen, std_gen, convergences, mean_fitness, std_fitness, mean_convergence, mean_exec_time, n_pixel, n_individuals):
     print(f"Em quantas execuções o algoritmo convergiu: {colored(min(convergences, n_pixel), 'green',  attrs=['bold'])}/{colored(n_pixel, 'green',  attrs=['bold'])}")
     print(f"Número de indivíduos que convergiram no total: {colored(convergences, 'green',  attrs=['bold'])}/{colored(n_individuals, 'green',  attrs=['bold'])}")
     print(f"Em que iteração o algoritmo convergiu, em média: {colored(round(mean_gen, 3), 'green',  attrs=['bold'])}")
     print(f"Desvio Padrão de em quantas iterações o algoritmo convergiu: {colored(round(std_gen, 3), 'green',  attrs=['bold'])}")
-    print(f"Fitness médio alcançado em todos os pixels: {colored(round(mean_fitness, 3), 'green',  attrs=['bold'])}")
-    print(f"Desvio padrão dos Fitness alcançados em todos os pixels: {colored(round(std_fitness, 3), 'green',  attrs=['bold'])}")
+    print(f"Fitness médio alcançado em todos os pixels: {colored(round(mean_fitness, 5), 'green',  attrs=['bold'])}")
+    print(f"Desvio padrão dos Fitness alcançados em todos os pixels: {colored(round(std_fitness, 5), 'green',  attrs=['bold'])}")
     print(f"Número de indivíduos que convergiram por execução, em média: {colored(round(mean_convergence, 3), 'green',  attrs=['bold'])}")
     print(f"Tempo médio de execução em cada pixel: {colored(round(mean_exec_time, 3), 'green',  attrs=['bold'])} segundos")
     print(f"A quantidade de pixels na imagem é de: {colored(n_pixel, 'green',  attrs=['bold'])} pixels")
