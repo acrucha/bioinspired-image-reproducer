@@ -10,7 +10,7 @@ import sys
 def get_time(s):
     return s['Execution Time']
 
-def run(file, j, mr, cr, x, g, fi):
+def run(file, j, mr, cr, x, g, fi=0.01):
 
     with open(f"{PATH}testing-{x}.json", 'r') as f:
         list = json.load(f)
@@ -37,15 +37,15 @@ def run(file, j, mr, cr, x, g, fi):
 
     f.close()
 
-def test_crossovers(crossover_rates, f):
+def test_crossovers(crossover_rates, m, f):
     for j in range(1, 31):
         for cr in crossover_rates:
-            run(f, j, 0.09, cr, "crossover")
+            run(f, j, m, cr, "crossover")
 
-def test_mutations(mutation_rates, f):
+def test_mutations(mutation_rates, c, f):
     for j in range(1, 31):
         for mr in mutation_rates:
-            run(f, j, mr, 0.9, "mutation")
+            run(f, j, mr, c, "mutation")
 
 def generate_means(rates, test, b, e, i):
     list = []
@@ -99,14 +99,16 @@ def plot_target_fitness(gridsize):
 
 if __name__ == "__main__":
 
-    f, m, c, g = sys.argv[1:5]
-    # j = 0
-    # for i in range(30):
-    #     j+=1
-    #     run(f, j, float(m), float(c), 'fitness', int(g), 0.0005)
-    generate_gif(f'../img/outputs/{f}')
-    # generate_means(crossover_rates, 'crossover', 22, 23, 0.1)
-    # generate_means(mutation_rates, 'mutation', 16, 31, 4)
-    # generate_means(processes, 'processing', 3, 15, 2)
-    # gridsize = 1
-    # plot_target_fitness(gridsize)
+    f, m, c, g, type, r = sys.argv[1:6]
+
+    if type == "mutation":
+        test_mutations(mutation_rates, c, f)
+    elif type == "crossover":
+        test_crossovers(crossover_rates, c, f)
+    elif type == "mean":
+        b, e, i = input("Range:")
+        generate_means(map_rate[r], r, b, e, i)
+    elif type == "gif":
+        generate_gif(f'../img/outputs/{f}')
+    elif type == 'fit':
+        plot_target_fitness(g) 

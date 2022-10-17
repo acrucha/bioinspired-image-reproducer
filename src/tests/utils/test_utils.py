@@ -34,17 +34,6 @@ pop_sizes = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 
 processes = [8,7,6,5,4,3,2,1]
 
-exec_times_processes = {
-    1: 26.96,
-    2: 22.23,
-    3: 17.99,
-    4: 9.87,
-    5: 8.73,
-    6: 6.62,
-    7: 6.67,
-    8: 6.68,
-}
-
 grid = [i for i in range(1, 11)]
 
 map = {
@@ -53,6 +42,12 @@ map = {
     'processing': "Number of Processes",
     'grid': "Grid Size",
     'fitness': "Target Fitness"
+}
+
+map_rate = {
+    "mutation": mutation_rates,
+    "crossover": crossover_rates,
+    "processing": processes
 }
 
 PATH = './tests/'
