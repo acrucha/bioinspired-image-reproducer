@@ -1,0 +1,1622 @@
+[
+    {
+        "Execution Nº": 28,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 1.8928816318511963,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 23,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 1.8982257843017578,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 21,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 1.9301230907440186,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 24,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 1.93721342086792,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 27,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 1.9373247623443604,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 30,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 1.9486031532287598,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 27,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 1.9721179008483887,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 23,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 1.9908802509307861,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 28,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 1.9953229427337646,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 25,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.0087850093841553,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.022526264190674,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 27,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.0405185222625732,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 27,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.0442392826080322,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 23,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.0463223457336426,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 21,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.0600156784057617,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 28,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.069582223892212,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.07499623298645,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 29,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.1126210689544678,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 25,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.113415241241455,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.1316916942596436,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.139070510864258,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 21,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.1470446586608887,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 22,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.156714916229248,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 27,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.1687421798706055,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 22,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.1722004413604736,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.1902244091033936,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 15,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.2075743675231934,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 23,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.2416536808013916,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 28,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.2501296997070312,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 25,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.250617265701294,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 14,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.259598731994629,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 24,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.266818046569824,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.2689056396484375,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 16,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.2711057662963867,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 12,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.279477119445801,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 12,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.2870020866394043,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.288973569869995,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 14,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.293992280960083,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 28,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.2942638397216797,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 26,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.2951438426971436,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 17,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.3131067752838135,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.3240323066711426,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.3274576663970947,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.327594757080078,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.3388335704803467,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 11,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.346759796142578,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 22,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.3504931926727295,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.3735339641571045,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 18,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.380939483642578,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 19,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.390582323074341,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.395378589630127,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 13,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.397231101989746,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 12,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.3977720737457275,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.3985671997070312,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 15,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.4165050983428955,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 30,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.4175493717193604,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 19,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.4217395782470703,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 27,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.4222617149353027,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 24,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.4258923530578613,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 30,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.427415609359741,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.4314868450164795,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.4328579902648926,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 16,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.4439890384674072,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.454909324645996,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 26,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.461620569229126,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.468895435333252,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.4719598293304443,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 13,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.4787375926971436,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.4832451343536377,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.4876060485839844,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.493138313293457,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.502307891845703,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 23,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.5027878284454346,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 14,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.505882740020752,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 13,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.505986452102661,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.5062153339385986,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.509953737258911,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 28,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.519453525543213,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 19,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.519470453262329,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.5213799476623535,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 15,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.5268449783325195,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 25,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.5282607078552246,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.5313639640808105,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.540888786315918,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 23,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.5438623428344727,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 22,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.5532681941986084,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.5539486408233643,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.561624765396118,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 11,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.5946574211120605,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 18,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.598867177963257,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 20,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.6054205894470215,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 11,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.617130756378174,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 13,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.623760938644409,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 19,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.625563144683838,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 17,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.6334195137023926,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 16,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.63881516456604,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 25,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.639181137084961,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.640939235687256,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 12,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.6432816982269287,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 13,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.652484655380249,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 17,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.6582424640655518,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.659621477127075,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 11,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.669395923614502,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.669832229614258,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 20,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.673534631729126,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 11,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.676608085632324,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 15,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.680077314376831,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 14,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.711043357849121,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 20,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.7142562866210938,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.717724084854126,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.7228641510009766,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 26,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.737607955932617,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 18,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.7387583255767822,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 21,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.740757703781128,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 25,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.74109148979187,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 16,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.755506992340088,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 24,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.7563183307647705,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 14,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.7565128803253174,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.7688872814178467,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 17,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.782487630844116,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.7967052459716797,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.804595470428467,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 17,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.8080976009368896,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 22,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.8133280277252197,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 22,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.822636365890503,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 15,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.824063301086426,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 21,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.8272809982299805,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 24,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.8401429653167725,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 18,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.8465816974639893,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.8560538291931152,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.859642267227173,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.860386371612549,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.863442897796631,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 19,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.864680767059326,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 12,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.8961288928985596,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.9064836502075195,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.9106945991516113,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.910996675491333,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 19,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.9182121753692627,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 17,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.948633909225464,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.953016519546509,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.9581615924835205,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 20,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.9729745388031006,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 18,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.9856956005096436,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.9874231815338135,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 18,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.9956536293029785,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 2.9971065521240234,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.0120866298675537,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 30,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.054941415786743,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 30,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.0724780559539795,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 20,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.0904250144958496,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 30,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.1053619384765625,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.1093366146087646,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 21,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.116645336151123,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 26,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.11759090423584,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.1647257804870605,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.180983781814575,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.1,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.181919813156128,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 11,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.206775426864624,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 14,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.207198143005371,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 26,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.2261722087860107,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.280411958694458,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 16,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.3490653038024902,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 29,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.4648144245147705,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 24,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.469606876373291,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 20,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.493210792541504,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 12,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.5204966068267822,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 16,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.5283164978027344,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.5559027194976807,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 29,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.573908805847168,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 13,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.05,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.5763919353485107,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 15,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.590278148651123,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 26,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.6591148376464844,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.689676284790039,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.08,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 3.7379953861236572,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 4.109350919723511,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 4.1981041431427,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 29,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.07,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 5.426926374435425,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 29,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.06,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 5.6021740436553955,
+        "Population Size": 10
+    },
+    {
+        "Execution Nº": 29,
+        "Mutation": "gaussian",
+        "Mutation Rate": 0.09,
+        "Crossover": "intermediate",
+        "Crossover Rate": 0.9,
+        "Execution Time": 5.847432374954224,
+        "Population Size": 10
+    }
+]

@@ -1,0 +1,807 @@
+[
+    {
+        "Execution Nº": 4,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 0.49692320823669434,
+        "Grid Size": 4,
+        "Target Fitness": 0.001
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 0.4976015090942383,
+        "Grid Size": 4,
+        "Target Fitness": 0.006
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 0.499117374420166,
+        "Grid Size": 4,
+        "Target Fitness": 0.01
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 0.5009922981262207,
+        "Grid Size": 4,
+        "Target Fitness": 0.1
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 0.5034492015838623,
+        "Grid Size": 4,
+        "Target Fitness": 0.1
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 0.5125207901000977,
+        "Grid Size": 4,
+        "Target Fitness": 0.0006
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 0.5126392841339111,
+        "Grid Size": 4,
+        "Target Fitness": 0.01
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 0.5130670070648193,
+        "Grid Size": 4,
+        "Target Fitness": 0.006
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 0.688056468963623,
+        "Grid Size": 4,
+        "Target Fitness": 0.0001,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 0.7665777206420898,
+        "Grid Size": 4,
+        "Target Fitness": 0.0001,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 3.5156848430633545,
+        "Grid Size": 2,
+        "Target Fitness": 5e-07
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 3.6287903785705566,
+        "Grid Size": 2,
+        "Target Fitness": 1e-06
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 3.640857219696045,
+        "Grid Size": 2,
+        "Target Fitness": 5e-05
+    },
+    {
+        "Execution Nº": 17,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 5.114732027053833,
+        "Grid Size": 4,
+        "Target Fitness": 8e-10
+    },
+    {
+        "Execution Nº": 16,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 5.178045749664307,
+        "Grid Size": 4,
+        "Target Fitness": 1e-09
+    },
+    {
+        "Execution Nº": 15,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 5.246405839920044,
+        "Grid Size": 4,
+        "Target Fitness": 3e-09
+    },
+    {
+        "Execution Nº": 12,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 5.258765697479248,
+        "Grid Size": 4,
+        "Target Fitness": 1e-07
+    },
+    {
+        "Execution Nº": 11,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 5.26170539855957,
+        "Grid Size": 4,
+        "Target Fitness": 3e-07
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 5.270503282546997,
+        "Grid Size": 4,
+        "Target Fitness": 1e-06
+    },
+    {
+        "Execution Nº": 13,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 5.27253270149231,
+        "Grid Size": 4,
+        "Target Fitness": 8e-08
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 5.300321102142334,
+        "Grid Size": 4,
+        "Target Fitness": 5e-07
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 5.606093645095825,
+        "Grid Size": 4,
+        "Target Fitness": 5e-05
+    },
+    {
+        "Execution Nº": 14,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 6.066896677017212,
+        "Grid Size": 4,
+        "Target Fitness": 5e-09
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 6.44599723815918,
+        "Grid Size": 2,
+        "Target Fitness": 0.0001
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 6.452166318893433,
+        "Grid Size": 2,
+        "Target Fitness": 0.0002
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 6.469072580337524,
+        "Grid Size": 2,
+        "Target Fitness": 0.0002
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 7.105412006378174,
+        "Grid Size": 2,
+        "Target Fitness": 0.0003
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 7.323134899139404,
+        "Grid Size": 4,
+        "Target Fitness": 0.0001
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 8.408958196640015,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 9.88368034362793,
+        "Grid Size": 2,
+        "Target Fitness": 0.001
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 10.48259687423706,
+        "Grid Size": 2,
+        "Target Fitness": 0.0008
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 10.632763862609863,
+        "Grid Size": 2,
+        "Target Fitness": 0.001
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 11.150173425674438,
+        "Grid Size": 2,
+        "Target Fitness": 0.0008
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 11.180404901504517,
+        "Grid Size": 4,
+        "Target Fitness": 0.0002
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 13.566245079040527,
+        "Grid Size": 2,
+        "Target Fitness": 0.005
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 13.941576719284058,
+        "Grid Size": 2,
+        "Target Fitness": 0.005
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 14.412193059921265,
+        "Grid Size": 2,
+        "Target Fitness": 0.008
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 14.675893545150757,
+        "Grid Size": 2,
+        "Target Fitness": 0.008
+    },
+    {
+        "Execution Nº": 12,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 14.838367223739624,
+        "Grid Size": 3,
+        "Target Fitness": 5e-09
+    },
+    {
+        "Execution Nº": 13,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 14.85854196548462,
+        "Grid Size": 3,
+        "Target Fitness": 3e-09
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 15.039894580841064,
+        "Grid Size": 3,
+        "Target Fitness": 3e-07
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 15.065605640411377,
+        "Grid Size": 3,
+        "Target Fitness": 1e-07
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 15.109665393829346,
+        "Grid Size": 3,
+        "Target Fitness": 5e-07
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 15.885889530181885,
+        "Grid Size": 2,
+        "Target Fitness": 0.01
+    },
+    {
+        "Execution Nº": 11,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 15.951014280319214,
+        "Grid Size": 3,
+        "Target Fitness": 8e-08
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 16.058295488357544,
+        "Grid Size": 3,
+        "Target Fitness": 1e-06
+    },
+    {
+        "Execution Nº": 14,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 16.610002040863037,
+        "Grid Size": 3,
+        "Target Fitness": 1e-09
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 16.862031936645508,
+        "Grid Size": 3,
+        "Target Fitness": 5e-05
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 16.95280694961548,
+        "Grid Size": 4,
+        "Target Fitness": 0.0001,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 18.250857830047607,
+        "Grid Size": 4,
+        "Target Fitness": 0.0001,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 19.603267908096313,
+        "Grid Size": 4,
+        "Target Fitness": 0.0006
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 22.456305980682373,
+        "Grid Size": 4,
+        "Target Fitness": 0.001
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 23.36263084411621,
+        "Grid Size": 3,
+        "Target Fitness": 0.0001
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 33.62072014808655,
+        "Grid Size": 4,
+        "Target Fitness": 0.006
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 35.036827087402344,
+        "Grid Size": 3,
+        "Target Fitness": 0.0002
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 36.045857667922974,
+        "Grid Size": 4,
+        "Target Fitness": 0.01
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 36.29755210876465,
+        "Grid Size": 2,
+        "Target Fitness": 1e-06
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 37.52006506919861,
+        "Grid Size": 2,
+        "Target Fitness": 5e-05
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 40.79004979133606,
+        "Grid Size": 2,
+        "Target Fitness": 5e-07
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 50.53870892524719,
+        "Grid Size": 2,
+        "Target Fitness": 0.0001
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 50.67256307601929,
+        "Grid Size": 2,
+        "Target Fitness": 3e-07
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 51.651647090911865,
+        "Grid Size": 4,
+        "Target Fitness": 0.1
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 53.66145348548889,
+        "Grid Size": 4,
+        "Target Fitness": 0.1
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 53.952922105789185,
+        "Grid Size": 3,
+        "Target Fitness": 0.0006
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 56.464951276779175,
+        "Grid Size": 2,
+        "Target Fitness": 1e-07
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 63.00326991081238,
+        "Grid Size": 3,
+        "Target Fitness": 0.001
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 74.22103691101074,
+        "Grid Size": 2,
+        "Target Fitness": 0.0002
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 77.94472789764404,
+        "Grid Size": 3,
+        "Target Fitness": 0.001
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 84.87282586097717,
+        "Grid Size": 2,
+        "Target Fitness": 0.0001,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 96.12229657173157,
+        "Grid Size": 3,
+        "Target Fitness": 0.006
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 103.72273278236389,
+        "Grid Size": 3,
+        "Target Fitness": 0.006
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 119.63759922981262,
+        "Grid Size": 3,
+        "Target Fitness": 0.006
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 133.03469800949097,
+        "Grid Size": 3,
+        "Target Fitness": 0.01
+    },
+    {
+        "Execution Nº": 16,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 146.25560975074768,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 15,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 147.58965134620667,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 151.40853595733643,
+        "Grid Size": 3,
+        "Target Fitness": 0.1
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 156.03763103485107,
+        "Grid Size": 2,
+        "Target Fitness": 0.0006
+    },
+    {
+        "Execution Nº": 11,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 156.57594990730286,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 156.9088625907898,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 12,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 157.1231369972229,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 158.7051236629486,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 13,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 158.90429186820984,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 14,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 163.22427248954773,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 171.71011018753052,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 172.87228631973267,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 173.0577585697174,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 173.16722011566162,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 173.44642639160156,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 174.57593083381653,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 179.58222556114197,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 187.01887822151184,
+        "Grid Size": 1,
+        "Target Fitness": 0.0001
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 188.09017181396484,
+        "Grid Size": 2,
+        "Target Fitness": 0.001
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 198.9087839126587,
+        "Grid Size": 2,
+        "Target Fitness": 0.0005,
+        "File": "malu.jpg"
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 270.9970817565918,
+        "Grid Size": 2,
+        "Target Fitness": 0.006
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 278.9853165149689,
+        "Grid Size": 2,
+        "Target Fitness": 0.006
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 422.36473178863525,
+        "Grid Size": 1,
+        "Target Fitness": 0.0005
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 478.79510951042175,
+        "Grid Size": 1,
+        "Target Fitness": 0.0008
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 563.2421414852142,
+        "Grid Size": 1,
+        "Target Fitness": 0.001
+    }
+]

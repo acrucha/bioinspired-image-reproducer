@@ -1,0 +1,686 @@
+➜  python3 main.py -f paulo.png -P 3 -s 4
+Em quantas execuções o algoritmo convergiu: 25600/25600
+Número de indivíduos que convergiram no total: 27298/256000
+Em que iteração o algoritmo convergiu, em média: 45.892
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.125
+Fitness médio alcançado em todos os pixels: 0.054
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.066
+Tempo médio de execução em cada pixel: 0.024 segundos
+A quantidade de pixels na imagem é de: 25600 pixels
+Done!
+--- 3.69 minutos ---
+
+➜  python3 main.py -f paulo.png -P 2 -s 4
+Em quantas execuções o algoritmo convergiu: 25600/25600
+Número de indivíduos que convergiram no total: 27357/256000
+Em que iteração o algoritmo convergiu, em média: 46.267
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.184
+Fitness médio alcançado em todos os pixels: 0.054
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.069
+Tempo médio de execução em cada pixel: 0.022 segundos
+A quantidade de pixels na imagem é de: 25600 pixels
+Done!
+--- 4.86 minutos ---
+
+➜  python3 main.py -f paulo.png -P 1 -s 4
+Em quantas execuções o algoritmo convergiu: 25600/25600
+Número de indivíduos que convergiram no total: 27230/256000
+Em que iteração o algoritmo convergiu, em média: 46.062
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.138
+Fitness médio alcançado em todos os pixels: 0.054
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.064
+Tempo médio de execução em cada pixel: 0.019 segundos
+A quantidade de pixels na imagem é de: 25600 pixels
+Done!
+--- 8.41 minutos ---
+
+➜  python3 main.py -f paulo.png -P 4 -s 4
+Em quantas execuções o algoritmo convergiu: 25600/25600
+Número de indivíduos que convergiram no total: 27311/256000
+Em que iteração o algoritmo convergiu, em média: 45.969
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.074
+Fitness médio alcançado em todos os pixels: 0.054
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.067
+Tempo médio de execução em cada pixel: 0.021 segundos
+A quantidade de pixels na imagem é de: 25600 pixels
+Done!
+--- 2.45 minutos ---
+
+➜  python3 main.py -f paulo.png -P 5 -s 4
+Em quantas execuções o algoritmo convergiu: 25600/25600
+Número de indivíduos que convergiram no total: 27220/256000
+Em que iteração o algoritmo convergiu, em média: 46.071
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.094
+Fitness médio alcançado em todos os pixels: 0.054
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.063
+Tempo médio de execução em cada pixel: 0.02 segundos
+A quantidade de pixels na imagem é de: 25600 pixels
+Done!
+--- 1.90 minutos ---
+
+➜  python3 main.py -f paulo.png -P 6 -s 4
+Em quantas execuções o algoritmo convergiu: 25600/25600
+Número de indivíduos que convergiram no total: 27331/256000
+Em que iteração o algoritmo convergiu, em média: 46.18
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.135
+Fitness médio alcançado em todos os pixels: 0.054
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.068
+Tempo médio de execução em cada pixel: 0.024 segundos
+A quantidade de pixels na imagem é de: 25600 pixels
+Done!
+--- 1.85 minutos ---
+
+➜  python3 main.py -f paulo.png -P 7 -s 4
+Em quantas execuções o algoritmo convergiu: 25600/25600
+Número de indivíduos que convergiram no total: 27222/256000
+Em que iteração o algoritmo convergiu, em média: 46.048
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.283
+Fitness médio alcançado em todos os pixels: 0.054
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.063
+Tempo médio de execução em cada pixel: 0.026 segundos
+A quantidade de pixels na imagem é de: 25600 pixels
+Done!
+--- 1.73 minutos ---
+
+➜  python3 main.py -f paulo.png -P 8 -s 4
+Em quantas execuções o algoritmo convergiu: 25600/25600
+Número de indivíduos que convergiram no total: 27280/256000
+Em que iteração o algoritmo convergiu, em média: 46.011
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.098
+Fitness médio alcançado em todos os pixels: 0.054
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.066
+Tempo médio de execução em cada pixel: 0.028 segundos
+A quantidade de pixels na imagem é de: 25600 pixels
+Done!
+--- 1.65 minutos ---
+
+➜  python3 main.py -f paulo.png -P 8 -s 2
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 109142/1024000
+Em que iteração o algoritmo convergiu, em média: 45.903
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.12
+Fitness médio alcançado em todos os pixels: 0.053
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.066
+Tempo médio de execução em cada pixel: 0.028 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 6.68 minutos ---
+
+➜  python3 main.py -f paulo.png -P 1 -s 2
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 109319/1024000
+Em que iteração o algoritmo convergiu, em média: 45.896
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 19.968
+Fitness médio alcançado em todos os pixels: 0.053
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.068
+Tempo médio de execução em cada pixel: 0.015 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 26.96 minutos ---
+
+
+➜  python3 main.py -f paulo.png -P 2 -s 2
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 109181/1024000
+Em que iteração o algoritmo convergiu, em média: 45.85
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.014
+Fitness médio alcançado em todos os pixels: 0.053
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.066
+Tempo médio de execução em cada pixel: 0.024 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 22.23 minutos ---
+
+➜  python3 main.py -f paulo.png -P 3 -s 2
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 109209/1024000
+Em que iteração o algoritmo convergiu, em média: 45.871
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.054
+Fitness médio alcançado em todos os pixels: 0.053
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.066
+Tempo médio de execução em cada pixel: 0.028 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 17.99 minutos ---
+
+
+➜  python3 main.py -f paulo.png -P 4 -s 2
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 109140/1024000
+Em que iteração o algoritmo convergiu, em média: 45.802
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.071
+Fitness médio alcançado em todos os pixels: 0.053
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.066
+Tempo médio de execução em cada pixel: 0.021 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 9.87 minutos ---
+
+➜  python3 main.py -f paulo.png -P 5 -s 2
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 109172/1024000
+Em que iteração o algoritmo convergiu, em média: 45.891
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.123
+Fitness médio alcançado em todos os pixels: 0.053
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.066
+Tempo médio de execução em cada pixel: 0.024 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 8.73 minutos ---
+
+
+➜  python3 main.py -f paulo.png -P 6 -s 2
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 109072/1024000
+Em que iteração o algoritmo convergiu, em média: 45.869
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.04
+Fitness médio alcançado em todos os pixels: 0.053
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.065
+Tempo médio de execução em cada pixel: 0.021 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 6.62 minutos ---
+
+➜  python3 main.py -f paulo.png -P 7 -s 2
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 109162/1024000
+Em que iteração o algoritmo convergiu, em média: 45.873
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 20.085
+Fitness médio alcançado em todos os pixels: 0.053
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.066
+Tempo médio de execução em cada pixel: 0.025 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 6.67 minutos ---
+
+--------------------------------------------------------------------------
+➜  -f paulo.png -s 2 -M 0.2 -C 0.8
+➜  python3 testing.py 
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111147/1024000
+Em que iteração o algoritmo convergiu, em média: 33.155
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.564
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.085
+Tempo médio de execução em cada pixel: 0.016 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 3.90 minutos ---
+#1 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111278/1024000
+Em que iteração o algoritmo convergiu, em média: 33.15
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.497
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.087
+Tempo médio de execução em cada pixel: 0.016 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 3.92 minutos ---
+#2 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111065/1024000
+Em que iteração o algoritmo convergiu, em média: 33.147
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.552
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.085
+Tempo médio de execução em cada pixel: 0.017 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 3.96 minutos ---
+#3 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111204/1024000
+Em que iteração o algoritmo convergiu, em média: 33.1
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.493
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.086
+Tempo médio de execução em cada pixel: 0.015 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.08 minutos ---
+#4 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111261/1024000
+Em que iteração o algoritmo convergiu, em média: 33.194
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.545
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.087
+Tempo médio de execução em cada pixel: 0.015 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.08 minutos ---
+#5 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 110994/1024000
+Em que iteração o algoritmo convergiu, em média: 33.15
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.429
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.084
+Tempo médio de execução em cada pixel: 0.015 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.15 minutos ---
+#6 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111206/1024000
+Em que iteração o algoritmo convergiu, em média: 33.151
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.486
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.086
+Tempo médio de execução em cada pixel: 0.013 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.16 minutos ---
+#7 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111128/1024000
+Em que iteração o algoritmo convergiu, em média: 33.237
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.577
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.085
+Tempo médio de execução em cada pixel: 0.013 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.26 minutos ---
+#8 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111079/1024000
+Em que iteração o algoritmo convergiu, em média: 33.234
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.514
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.085
+Tempo médio de execução em cada pixel: 0.013 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.16 minutos ---
+#9 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111148/1024000
+Em que iteração o algoritmo convergiu, em média: 33.136
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.511
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.085
+Tempo médio de execução em cada pixel: 0.011 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.31 minutos ---
+#10 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111220/1024000
+Em que iteração o algoritmo convergiu, em média: 33.092
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.474
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.086
+Tempo médio de execução em cada pixel: 0.011 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.31 minutos ---
+#11 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111124/1024000
+Em que iteração o algoritmo convergiu, em média: 33.15
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.538
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.085
+Tempo médio de execução em cada pixel: 0.011 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.30 minutos ---
+#12 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111147/1024000
+Em que iteração o algoritmo convergiu, em média: 33.137
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.518
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.085
+Tempo médio de execução em cada pixel: 0.009 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.31 minutos ---
+#13 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111170/1024000
+Em que iteração o algoritmo convergiu, em média: 33.067
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.42
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.086
+Tempo médio de execução em cada pixel: 0.009 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.21 minutos ---
+#14 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111248/1024000
+Em que iteração o algoritmo convergiu, em média: 33.177
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.513
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.086
+Tempo médio de execução em cada pixel: 0.009 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.30 minutos ---
+#15 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 110950/1024000
+Em que iteração o algoritmo convergiu, em média: 33.16
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.485
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.083
+Tempo médio de execução em cada pixel: 0.008 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.95 minutos ---
+#16 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111136/1024000
+Em que iteração o algoritmo convergiu, em média: 33.145
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.499
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.085
+Tempo médio de execução em cada pixel: 0.008 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.86 minutos ---
+#17 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111182/1024000
+Em que iteração o algoritmo convergiu, em média: 33.238
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.516
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.086
+Tempo médio de execução em cada pixel: 0.008 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 4.91 minutos ---
+#18 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111038/1024000
+Em que iteração o algoritmo convergiu, em média: 33.234
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.627
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.084
+Tempo médio de execução em cada pixel: 0.007 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 6.46 minutos ---
+#19 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111158/1024000
+Em que iteração o algoritmo convergiu, em média: 33.156
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.478
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.086
+Tempo médio de execução em cada pixel: 0.007 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 6.53 minutos ---
+#20 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111217/1024000
+Em que iteração o algoritmo convergiu, em média: 33.123
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.437
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.086
+Tempo médio de execução em cada pixel: 0.007 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 6.51 minutos ---
+#21 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111218/1024000
+Em que iteração o algoritmo convergiu, em média: 33.29
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.587
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.086
+Tempo médio de execução em cada pixel: 0.007 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 12.50 minutos ---
+#22 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111107/1024000
+Em que iteração o algoritmo convergiu, em média: 33.195
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.468
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.085
+Tempo médio de execução em cada pixel: 0.007 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 12.73 minutos ---
+#23 Execution OK
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111237/1024000
+Em que iteração o algoritmo convergiu, em média: 33.155
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.504
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.086
+Tempo médio de execução em cada pixel: 0.007 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 12.36 minutos ---
+#24 Execution OK
+
+
+--------------------------------------------------------------------
+➜  python3 main.py -f paulo.png -P 1 -s 2 -M 0.09 -C 0.9
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 109088/1024000
+Em que iteração o algoritmo convergiu, em média: 46.007
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 19.987
+Fitness médio alcançado em todos os pixels: 0.053
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.022
+Número de indivíduos que convergiram por execução, em média: 1.065
+Tempo médio de execução em cada pixel: 0.014 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 25.14 minutos ---
+
+-------------------------------------------------------------------
+
+➜  python3 testing.py 
+Em quantas execuções o algoritmo convergiu: 4096/4096
+Número de indivíduos que convergiram no total: 4461/40960
+Em que iteração o algoritmo convergiu, em média: 33.06
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.578
+Fitness médio alcançado em todos os pixels: 0.045
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.02
+Número de indivíduos que convergiram por execução, em média: 1.089
+Tempo médio de execução em cada pixel: 0.031 segundos
+A quantidade de pixels na imagem é de: 4096 pixels
+Done!
+--- 19.99 segundos ---
+#1 Execution OK
+Em quantas execuções o algoritmo convergiu: 5184/5184
+Número de indivíduos que convergiram no total: 5641/51840
+Em que iteração o algoritmo convergiu, em média: 33.013
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.236
+Fitness médio alcançado em todos os pixels: 0.045
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.088
+Tempo médio de execução em cada pixel: 0.031 segundos
+A quantidade de pixels na imagem é de: 5184 pixels
+Done!
+--- 24.20 segundos ---
+#2 Execution OK
+Pixel #1 = (0, 0)
+Pixel #1 = (80, 0)
+Pixel #1 = (160, 0)
+Pixel #1 = (240, 0)
+Pixel #1 = (320, 0)
+Pixel #168 = (256, 56)       
+Pixel #263 = (424, 176)      
+Pixel #275 = (584, 272)      
+^Z
+[7]  + 793929 suspended  python3 testing.py
+acruchi in bio-inspired-image-reproducer/src on  feat/statistics [$!?] took 57,5s 
+➜  python3 testing.py 
+GRID = 10
+Em quantas execuções o algoritmo convergiu: 4096/4096
+Número de indivíduos que convergiram no total: 4457/40960
+Em que iteração o algoritmo convergiu, em média: 33.157
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.544
+Fitness médio alcançado em todos os pixels: 0.045
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.02
+Número de indivíduos que convergiram por execução, em média: 1.088
+Tempo médio de execução em cada pixel: 0.031 segundos
+A quantidade de pixels na imagem é de: 4096 pixels
+Done!
+--- 19.54 segundos ---
+#1 Execution OK
+GRID = 9
+Em quantas execuções o algoritmo convergiu: 5184/5184
+Número de indivíduos que convergiram no total: 5637/51840
+Em que iteração o algoritmo convergiu, em média: 33.288
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.563
+Fitness médio alcançado em todos os pixels: 0.045
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.087
+Tempo médio de execução em cada pixel: 0.03 segundos
+A quantidade de pixels na imagem é de: 5184 pixels
+Done!
+--- 23.42 segundos ---
+#2 Execution OK
+GRID = 8
+Em quantas execuções o algoritmo convergiu: 6400/6400
+Número de indivíduos que convergiram no total: 6958/64000
+Em que iteração o algoritmo convergiu, em média: 33.135
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.243
+Fitness médio alcançado em todos os pixels: 0.045
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.02
+Número de indivíduos que convergiram por execução, em média: 1.087
+Tempo médio de execução em cada pixel: 0.031 segundos
+A quantidade de pixels na imagem é de: 6400 pixels
+Done!
+--- 29.89 segundos ---
+#3 Execution OK
+GRID = 7
+Em quantas execuções o algoritmo convergiu: 8464/8464
+Número de indivíduos que convergiram no total: 9204/84640
+Em que iteração o algoritmo convergiu, em média: 33.38
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.762
+Fitness médio alcançado em todos os pixels: 0.045
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.02
+Número de indivíduos que convergiram por execução, em média: 1.087
+Tempo médio de execução em cada pixel: 0.032 segundos
+A quantidade de pixels na imagem é de: 8464 pixels
+Done!
+--- 40.58 segundos ---
+#4 Execution OK
+GRID = 6
+Em quantas execuções o algoritmo convergiu: 11449/11449
+Número de indivíduos que convergiram no total: 12393/114490
+Em que iteração o algoritmo convergiu, em média: 33.701
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.814
+Fitness médio alcançado em todos os pixels: 0.045
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.082
+Tempo médio de execução em cada pixel: 0.031 segundos
+A quantidade de pixels na imagem é de: 11449 pixels
+Done!
+--- 53.69 segundos ---
+#5 Execution OK
+GRID = 5
+Em quantas execuções o algoritmo convergiu: 16384/16384
+Número de indivíduos que convergiram no total: 17743/163840
+Em que iteração o algoritmo convergiu, em média: 33.373
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.635
+Fitness médio alcançado em todos os pixels: 0.045
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.083
+Tempo médio de execução em cada pixel: 0.029 segundos
+A quantidade de pixels na imagem é de: 16384 pixels
+Done!
+--- 1.16 minutos ---
+#6 Execution OK
+GRID = 4
+Em quantas execuções o algoritmo convergiu: 25600/25600
+Número de indivíduos que convergiram no total: 27820/256000
+Em que iteração o algoritmo convergiu, em média: 33.261
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.578
+Fitness médio alcançado em todos os pixels: 0.045
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.087
+Tempo médio de execução em cada pixel: 0.029 segundos
+A quantidade de pixels na imagem é de: 25600 pixels
+Done!
+--- 1.79 minutos ---
+#7 Execution OK
+GRID = 3
+Em quantas execuções o algoritmo convergiu: 45796/45796
+Número de indivíduos que convergiram no total: 49763/457960
+Em que iteração o algoritmo convergiu, em média: 33.4
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.696
+Fitness médio alcançado em todos os pixels: 0.045
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.087
+Tempo médio de execução em cada pixel: 0.029 segundos
+A quantidade de pixels na imagem é de: 45796 pixels
+Done!
+--- 3.28 minutos ---
+#8 Execution OK
+GRID = 2
+Em quantas execuções o algoritmo convergiu: 102400/102400
+Número de indivíduos que convergiram no total: 111176/1024000
+Em que iteração o algoritmo convergiu, em média: 33.139
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.451
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.019
+Número de indivíduos que convergiram por execução, em média: 1.086
+Tempo médio de execução em cada pixel: 0.026 segundos
+A quantidade de pixels na imagem é de: 102400 pixels
+Done!
+--- 6.49 minutos ---
+#9 Execution OK
+GRID = 1
+Em quantas execuções o algoritmo convergiu: 409600/409600
+Número de indivíduos que convergiram no total: 444094/4096000
+Em que iteração o algoritmo convergiu, em média: 33.08
+Desvio Padrão de em quantas iterações o algoritmo convergiu: 14.499
+Fitness médio alcançado em todos os pixels: 0.044
+Desvio padrão dos Fitness alcançados em todos os pixels: 0.02
+Número de indivíduos que convergiram por execução, em média: 1.084
+Tempo médio de execução em cada pixel: 0.027 segundos
+A quantidade de pixels na imagem é de: 409600 pixels
+Done!
+--- 28.68 minutos ---
