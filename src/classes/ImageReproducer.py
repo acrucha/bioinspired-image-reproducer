@@ -36,7 +36,7 @@ class ImageReproducer():
         self.GAUSS_MU = args.gaussian_mu
         self.GAUSS_SIGMA = args.gaussian_sigma
 
-        self.sequence_number = args.number
+        self.sequence_number = args.sequence_number
 
         self.n_pixel = int((self.width/self.GRID_SIZE)*(self.height/self.GRID_SIZE))
         self.n_individuals = self.population_size * self.n_pixel
