@@ -1,0 +1,72 @@
+[
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 20.34410834312439,
+        "Grid Size": 10
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 24.15584635734558,
+        "Grid Size": 9
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 30.664541244506836,
+        "Grid Size": 8
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 41.41743803024292,
+        "Grid Size": 7
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 54.55829906463623,
+        "Grid Size": 6
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 70.2695324420929,
+        "Grid Size": 5
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 108.53248238563538,
+        "Grid Size": 4
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 197.3731746673584,
+        "Grid Size": 3
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 390.18651723861694,
+        "Grid Size": 2
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation Rate": 0.2,
+        "Crossover Rate": 0.8,
+        "Execution Time": 1723.8436880111694,
+        "Grid Size": 1
+    }
+]
