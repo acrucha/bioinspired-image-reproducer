@@ -20,7 +20,7 @@ python3 main.py --help
 example: 1.jpg
 ## Population Size
 ### ```-p``` or ```--population-size```, represents the population size
-default=50
+default=10
 ## Type of Mutation
 ### ```-m``` or ```--mutation```, represents the Mutation Type
 options: random, rank_based_adaptive, gaussian, triangular. default='gaussian'
@@ -29,7 +29,7 @@ options: random, rank_based_adaptive, gaussian, triangular. default='gaussian'
 options: one_cut, two_point, intermediate, average. default='one_cut'
 ## Mutation Probability
 ### ```-M``` or ```--mutation-rate```, represents the Mutation Rate or Probability (between 0 and 1)
-default=0.2
+default=0.1
 ## Crossover Probability
 ### ```-C``` or ```--crossover-rate```, represents the Crossover Rate or Probability (between 0 and 1)
 default=0.9

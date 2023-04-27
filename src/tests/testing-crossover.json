@@ -1,0 +1,722 @@
+[
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 16.492321014404297
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 19.60663604736328
+    },
+    {
+        "Execution Nº": 25,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 19.70394468307495
+    },
+    {
+        "Execution Nº": 17,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 19.77192497253418
+    },
+    {
+        "Execution Nº": 23,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 19.805614233016968
+    },
+    {
+        "Execution Nº": 16,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 19.932489156723022
+    },
+    {
+        "Execution Nº": 24,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 20.027504682540894
+    },
+    {
+        "Execution Nº": 18,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 20.052428483963013
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 20.107035398483276
+    },
+    {
+        "Execution Nº": 27,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 20.12691617012024
+    },
+    {
+        "Execution Nº": 16,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 20.163327932357788
+    },
+    {
+        "Execution Nº": 13,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 20.270962238311768
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 20.30961513519287
+    },
+    {
+        "Execution Nº": 21,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 20.312024116516113
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 20.317690134048462
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 20.321693420410156
+    },
+    {
+        "Execution Nº": 11,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 20.344562292099
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 20.35445237159729
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 20.376322746276855
+    },
+    {
+        "Execution Nº": 23,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 20.396737575531006
+    },
+    {
+        "Execution Nº": 17,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 20.402655363082886
+    },
+    {
+        "Execution Nº": 22,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 20.410678148269653
+    },
+    {
+        "Execution Nº": 23,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 20.413708925247192
+    },
+    {
+        "Execution Nº": 28,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 20.41522479057312
+    },
+    {
+        "Execution Nº": 27,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 20.57990312576294
+    },
+    {
+        "Execution Nº": 16,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 20.58276057243347
+    },
+    {
+        "Execution Nº": 20,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 20.587576150894165
+    },
+    {
+        "Execution Nº": 25,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 20.66259241104126
+    },
+    {
+        "Execution Nº": 21,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 20.664247751235962
+    },
+    {
+        "Execution Nº": 12,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 20.710105895996094
+    },
+    {
+        "Execution Nº": 18,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 20.71250319480896
+    },
+    {
+        "Execution Nº": 23,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 20.719194650650024
+    },
+    {
+        "Execution Nº": 14,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 20.727359533309937
+    },
+    {
+        "Execution Nº": 24,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 20.731171369552612
+    },
+    {
+        "Execution Nº": 14,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 20.76959252357483
+    },
+    {
+        "Execution Nº": 15,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 20.78378415107727
+    },
+    {
+        "Execution Nº": 19,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 20.871139764785767
+    },
+    {
+        "Execution Nº": 26,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 20.87307333946228
+    },
+    {
+        "Execution Nº": 26,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 20.99449849128723
+    },
+    {
+        "Execution Nº": 12,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 21.00664520263672
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 21.017295122146606
+    },
+    {
+        "Execution Nº": 21,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 21.018290519714355
+    },
+    {
+        "Execution Nº": 10,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 21.028421640396118
+    },
+    {
+        "Execution Nº": 20,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 21.080967664718628
+    },
+    {
+        "Execution Nº": 14,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 21.09934663772583
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 21.136698007583618
+    },
+    {
+        "Execution Nº": 20,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 21.17246174812317
+    },
+    {
+        "Execution Nº": 18,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 21.17426347732544
+    },
+    {
+        "Execution Nº": 11,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 21.179474592208862
+    },
+    {
+        "Execution Nº": 27,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 21.241533517837524
+    },
+    {
+        "Execution Nº": 18,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 21.241708755493164
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 21.24325704574585
+    },
+    {
+        "Execution Nº": 17,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 21.244553327560425
+    },
+    {
+        "Execution Nº": 22,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 21.25361704826355
+    },
+    {
+        "Execution Nº": 19,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 21.359896898269653
+    },
+    {
+        "Execution Nº": 1,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 21.36215591430664
+    },
+    {
+        "Execution Nº": 25,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 21.365036010742188
+    },
+    {
+        "Execution Nº": 13,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 21.37402892112732
+    },
+    {
+        "Execution Nº": 27,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 21.38678240776062
+    },
+    {
+        "Execution Nº": 15,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 21.38773488998413
+    },
+    {
+        "Execution Nº": 25,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 21.452340126037598
+    },
+    {
+        "Execution Nº": 26,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 21.457440614700317
+    },
+    {
+        "Execution Nº": 17,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 21.51433539390564
+    },
+    {
+        "Execution Nº": 13,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 21.537221431732178
+    },
+    {
+        "Execution Nº": 19,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 21.54233694076538
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 21.57990312576294
+    },
+    {
+        "Execution Nº": 14,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 21.60384249687195
+    },
+    {
+        "Execution Nº": 11,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 21.630735635757446
+    },
+    {
+        "Execution Nº": 15,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 21.64184880256653
+    },
+    {
+        "Execution Nº": 16,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 21.695124864578247
+    },
+    {
+        "Execution Nº": 12,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 21.700971841812134
+    },
+    {
+        "Execution Nº": 9,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 21.873788118362427
+    },
+    {
+        "Execution Nº": 26,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 21.884566068649292
+    },
+    {
+        "Execution Nº": 21,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 21.969620943069458
+    },
+    {
+        "Execution Nº": 20,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 21.984516143798828
+    },
+    {
+        "Execution Nº": 13,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 22.06462788581848
+    },
+    {
+        "Execution Nº": 24,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 22.23902654647827
+    },
+    {
+        "Execution Nº": 19,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 22.275348663330078
+    },
+    {
+        "Execution Nº": 24,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 22.318071126937866
+    },
+    {
+        "Execution Nº": 22,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 22.446890115737915
+    },
+    {
+        "Execution Nº": 22,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 22.468887329101562
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 22.503059148788452
+    },
+    {
+        "Execution Nº": 15,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 22.567168951034546
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 22.63186764717102
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 22.79328417778015
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 22.811198711395264
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 22.864725351333618
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 22.89814281463623
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 22.93981695175171
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 23.023659706115723
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 23.052273511886597
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 23.288926362991333
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 23.5294189453125
+    },
+    {
+        "Execution Nº": 6,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 23.556720495224
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 23.63617205619812
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 23.708282232284546
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 23.92383575439453
+    },
+    {
+        "Execution Nº": 5,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 23.976999044418335
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 24.20444393157959
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 24.450917720794678
+    },
+    {
+        "Execution Nº": 8,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 24.5924334526062
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 24.633467435836792
+    },
+    {
+        "Execution Nº": 4,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 25.79067087173462
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 25.83208203315735
+    },
+    {
+        "Execution Nº": 3,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 25.96313190460205
+    },
+    {
+        "Execution Nº": 2,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 26.198607444763184
+    },
+    {
+        "Execution Nº": 12,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 26.25085759162903
+    },
+    {
+        "Execution Nº": 7,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 26.268789291381836
+    },
+    {
+        "Execution Nº": 11,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 26.356938362121582
+    },
+    {
+        "Execution Nº": 30,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 28.9529550075531
+    },
+    {
+        "Execution Nº": 29,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 29.14282536506653
+    },
+    {
+        "Execution Nº": 29,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 29.411269426345825
+    },
+    {
+        "Execution Nº": 30,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.6,
+        "Execution Time": 29.47680640220642
+    },
+    {
+        "Execution Nº": 30,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 29.64000129699707
+    },
+    {
+        "Execution Nº": 28,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 29.940954208374023
+    },
+    {
+        "Execution Nº": 29,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 29.96723747253418
+    },
+    {
+        "Execution Nº": 29,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 30.14850878715515
+    },
+    {
+        "Execution Nº": 30,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.8,
+        "Execution Time": 30.28668737411499
+    },
+    {
+        "Execution Nº": 28,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.9,
+        "Execution Time": 30.328814268112183
+    },
+    {
+        "Execution Nº": 28,
+        "Mutation Rate": 0.09,
+        "Crossover Rate": 0.7,
+        "Execution Time": 31.172404766082764
+    }
+]

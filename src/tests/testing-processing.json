@@ -1,0 +1,146 @@
+[
+    {
+        "Execution Nº": 1,
+        "Image": "paulo.png",
+        "Execution Time": 234.46442890167236,
+        "Number of Processes": 8
+    },
+    {
+        "Execution Nº": 2,
+        "Image": "paulo.png",
+        "Execution Time": 235.63771152496338,
+        "Number of Processes": 8
+    },
+    {
+        "Execution Nº": 3,
+        "Image": "paulo.png",
+        "Execution Time": 238.04519248008728,
+        "Number of Processes": 8
+    },
+    {
+        "Execution Nº": 5,
+        "Image": "paulo.png",
+        "Execution Time": 245.48135638237,
+        "Number of Processes": 7
+    },
+    {
+        "Execution Nº": 4,
+        "Image": "paulo.png",
+        "Execution Time": 245.66809344291687,
+        "Number of Processes": 7
+    },
+    {
+        "Execution Nº": 6,
+        "Image": "paulo.png",
+        "Execution Time": 249.49956917762756,
+        "Number of Processes": 7
+    },
+    {
+        "Execution Nº": 7,
+        "Image": "paulo.png",
+        "Execution Time": 250.0378062725067,
+        "Number of Processes": 6
+    },
+    {
+        "Execution Nº": 9,
+        "Image": "paulo.png",
+        "Execution Time": 250.2083511352539,
+        "Number of Processes": 6
+    },
+    {
+        "Execution Nº": 14,
+        "Image": "paulo.png",
+        "Execution Time": 253.42933011054993,
+        "Number of Processes": 4
+    },
+    {
+        "Execution Nº": 8,
+        "Image": "paulo.png",
+        "Execution Time": 256.011355638504,
+        "Number of Processes": 6
+    },
+    {
+        "Execution Nº": 12,
+        "Image": "paulo.png",
+        "Execution Time": 258.5123472213745,
+        "Number of Processes": 5
+    },
+    {
+        "Execution Nº": 15,
+        "Image": "paulo.png",
+        "Execution Time": 258.57502365112305,
+        "Number of Processes": 4
+    },
+    {
+        "Execution Nº": 13,
+        "Image": "paulo.png",
+        "Execution Time": 258.98645281791687,
+        "Number of Processes": 4
+    },
+    {
+        "Execution Nº": 10,
+        "Image": "paulo.png",
+        "Execution Time": 259.26264095306396,
+        "Number of Processes": 5
+    },
+    {
+        "Execution Nº": 11,
+        "Image": "paulo.png",
+        "Execution Time": 259.3539865016937,
+        "Number of Processes": 5
+    },
+    {
+        "Execution Nº": 17,
+        "Image": "paulo.png",
+        "Execution Time": 292.0832052230835,
+        "Number of Processes": 3
+    },
+    {
+        "Execution Nº": 18,
+        "Image": "paulo.png",
+        "Execution Time": 295.52840089797974,
+        "Number of Processes": 3
+    },
+    {
+        "Execution Nº": 16,
+        "Image": "paulo.png",
+        "Execution Time": 297.4729914665222,
+        "Number of Processes": 3
+    },
+    {
+        "Execution Nº": 19,
+        "Image": "paulo.png",
+        "Execution Time": 388.2082431316376,
+        "Number of Processes": 2
+    },
+    {
+        "Execution Nº": 21,
+        "Image": "paulo.png",
+        "Execution Time": 391.4532997608185,
+        "Number of Processes": 2
+    },
+    {
+        "Execution Nº": 20,
+        "Image": "paulo.png",
+        "Execution Time": 392.413373708725,
+        "Number of Processes": 2
+    },
+    {
+        "Execution Nº": 24,
+        "Image": "paulo.png",
+        "Execution Time": 742.2116203308105,
+        "Number of Processes": 1
+    },
+    {
+        "Execution Nº": 22,
+        "Image": "paulo.png",
+        "Execution Time": 750.5300621986389,
+        "Number of Processes": 1
+    },
+    {
+        "Execution Nº": 23,
+        "Image": "paulo.png",
+        "Execution Time": 764.6033415794373,
+        "Number of Processes": 1
+    }
+]
