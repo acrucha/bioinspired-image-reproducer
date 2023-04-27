@@ -1,5 +1,10 @@
 # Bioinspired Image Reproducer
 
+# How to install
+```
+pip install -r requirements/r.txt 
+```
+
 # How to run
 Basic run
 ```

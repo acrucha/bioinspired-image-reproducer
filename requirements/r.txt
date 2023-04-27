@@ -1,0 +1,5 @@
+Pillow
+matplotlib
+termcolor
+opencv-python
+numpy
